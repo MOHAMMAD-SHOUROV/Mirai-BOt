@@ -20,7 +20,7 @@ module.exports.run = async function({ api, args, Users, event}) {
     var arraytag = [];
         arraytag.push({id: mention, tag: name});
     var a = function (a) { api.sendMessage(a, event.threadID); }
-a("তোর আব্বু rX এর চোদা লো");
+a("তোর আব্বু SHOUROV এর চোদা লো");
 setTimeout(() => {a({body: "খাংকির পোলা তর মারে চুদি  SHOUROV-BOT 🥰।" + " " + name, mentions: arraytag})}, 3000);
 setTimeout(() => {a({body: "খাংকির পোলা তর কচি বোন রে আমি শিবলু  চুদি SHOUROV-BOT 😍.." + " " + name, mentions: arraytag})}, 5000);
 setTimeout(() => {a({body: "মাদারচোদ তর আম্মু পম পম খাংকির পো আমি তোর বাপ SHOUROV-BOT 🐰" + " " + name, mentions: arraytag})}, 7000);
