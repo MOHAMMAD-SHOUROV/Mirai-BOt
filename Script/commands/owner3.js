@@ -59,16 +59,16 @@ module.exports.run = async function({ api, event }) {
     let y = cardY + 220;
 
     const info = [
-        "👑 Name : Rahat Islam",
-        "🧸 Nickname : Rahat",
-        "🎂 Age : 16",
+        "👑 Name : 𝐀𝐥𝐈𝐇𝐒𝐀𝐍 𝐒𝐇𝐎𝐔𝐑𝐎𝐕",
+        "🧸 Nickname : SHOUROV",
+        "🎂 Age : 1",
         "💘 Relation : Single",
         "🎓 Profession : Student",
-        "🏡 Address : Jamalpur",
+        "🏡 Address : ",
         "",
         "🔗 CONTACT LINKS",
-        "📘 Facebook : fb.com/61581900625860",
-        "💬 Messenger : m.me/61581900625860"
+        "📘 Facebook : fb.com/100071971474157",
+        "💬 Messenger : m.me/100071971474157"
     ];
 
     for (const line of info) {
@@ -92,7 +92,7 @@ module.exports.run = async function({ api, event }) {
     fs.writeFileSync(filePath, buffer);
 
     api.sendMessage({
-        body: "💙 𝗥𝗮𝗵𝗮𝘁 𝗕𝗼𝘁 💙\n✨ Owner Information ✨",
+        body: "💙 SHOUROV-BOT 💙\n✨ Owner Information ✨",
         attachment: fs.createReadStream(filePath)
     }, threadID, messageID);
 };
