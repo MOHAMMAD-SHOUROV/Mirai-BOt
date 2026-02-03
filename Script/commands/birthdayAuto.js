@@ -20,14 +20,14 @@ module.exports.run = async function({ api }) {
   if (now > birthday) birthday.setFullYear(year + 1);
 
   const diffDays = Math.ceil((birthday - now) / (1000 * 60 * 60 * 24));
-  const link = "\n🔗 m.me/rxabdullah007";
+  const link = "\n🔗 m.me/100071971474157";
 
   let message = "";
 
   if (diffDays <= 12 && diffDays >= 1) {
-    message = `📢 rX Abdullah এর জন্মদিন আসতে বাকি ${diffDays} দিন!\n🎁 রেডি থাকো উইশ করার জন্য! 🥳${link}`;
+    message = `📢 𝐀𝐥𝐈𝐇𝐒𝐀𝐍 𝐒𝐇𝐎𝐔𝐑𝐎𝐕 এর জন্মদিন আসতে বাকি ${diffDays} দিন!\n🎁 রেডি থাকো উইশ করার জন্য! 🥳${link}`;
   } else if (diffDays === 0) {
-    message = `🎉 আজ rX Abdullah এর জন্মদিন!\n\n📝 উইশ করো এই পোস্টে গিয়ে 👇\n${link}\n\n🎂 Caption:\n"Happy Birthday rX Abdullah 🎉\nStay blessed always 💙"`;
+    message = `🎉 আজ 𝐀𝐥𝐈𝐇𝐒𝐀𝐍 𝐒𝐇𝐎𝐔𝐑𝐎𝐕 এর জন্মদিন!\n\n📝 উইশ করো এই পোস্টে গিয়ে 👇\n${link}\n\n🎂 Caption:\n"Happy Birthday 𝐀𝐥𝐈𝐇𝐒𝐀𝐍 𝐒𝐇𝐎𝐔𝐑𝐎𝐕 🎉\nStay blessed always 💙"`;
   } else {
     return;
   }
