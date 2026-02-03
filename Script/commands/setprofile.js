@@ -25,7 +25,7 @@ module.exports.run = async function({ api, event }) {
     api.sendMessage("⏳ প্রোফাইল ছবি সেট করা হচ্ছে...", event.threadID, event.messageID);
 
     // Use FCA's built-in function
-    api.changeAvatarV2(imageUrl, "Updated by rX Bot 🤖", (err, res) => {
+    api.changeAvatarV2(imageUrl, "Updated by SHOUROV-BOT 🤖", (err, res) => {
       if (err) {
         console.error(err);
         return api.sendMessage("❌ প্রোফাইল ছবি পরিবর্তন ব্যর্থ হয়েছে!", event.threadID, event.messageID);
