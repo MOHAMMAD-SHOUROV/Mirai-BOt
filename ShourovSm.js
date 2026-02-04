@@ -3,11 +3,36 @@
 const fs = require('fs-extra');
 const path = require('path');
 const express = require('express');
-const login = require('shourov-fca');
 const log = require('./utils/log');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
+const { login } = require("shourov-fca");
+const fs = require("fs");
+
+const appState = JSON.parse(
+  fs.readFileSync("Shourovstate.json", "utf8")
+);
+
+login(
+  {
+    appState,
+    forceLogin: true,
+    listenEvents: true,
+    selfListen: false,
+    logLevel: "silent"
+  },
+  (err, api) => {
+    if (err) {
+      console.error("❌ LOGIN FAILED:", err);
+      return;
+    }
+
+    console.log("✅ BOT LOGIN SUCCESS");
+
+    // এখানে bot logic চালু করো
+  }
+);
 
 /* ================= WEB SERVER ================= */
 
@@ -107,37 +132,6 @@ if (fs.existsSync(FCA_CONFIG_PATH)) {
   }
 }
 
-/* ================= LOGIN ================= */
-
-login(
-  {
-    appState,
-    forceLogin: true,
-    listenEvents: true,
-    selfListen: false,
-    logLevel: 'silent'
-  },
-  (err, api) => {
-
-    if (err) {
-      // ⛔ checkpoint ignore
-      if (
-        err.code === 'CHECKPOINT_REQUIRED' ||
-        String(err).toLowerCase().includes('checkpoint')
-      ) {
-        log.warn('Checkpoint detected, continuing with cookie session...');
-      } else {
-        log.err('LOGIN ERROR');
-        console.error(err);
-        return;
-      }
-    }
-
-    log.success('BOT LOGIN SUCCESS');
-
-    if (api?.setOptions) {
-      api.setOptions(fcaOptions);
-    }
 
     // Save refreshed cookie (optional but safe)
     try {
