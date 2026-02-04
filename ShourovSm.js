@@ -1,1 +1,545 @@
-const _0x4ced=['WReFxdlcPCoLW5ldKCooW7tdOIu','eGNdTcpdIW','t8oIW6VcUeK','DCoKWQuRuW','ubj2r8ky','W5i6W5L+W6a','e8klWQtcUq','fSopWQv5','WQFcKmkOcmkg','dmkuWOxdJW/dJeimWRBcUNW','kCkIW5JdSmow','WQWCe8orW54','gHeUqq','WRNcHhSu','s8kKESkUgW','W7/dV8o2ESoy','hKJcMmo/W70','WOlcRabuWPm','W7n4W4HpW4G','W73dSIddRq','ACkHadNdJG','W6xcKNxcTG','W7ZdICokd8oo','WQZcS2GpWQq','CSkbmr1E','WPtdVe4vWR8','y8k1W4aevH1pkG','f8oBWP9d','W5dcLCkq','WQKlW4ddLGS','WR7cIxm','ffb+t8ki','ytFcO8oMlG','aSoHWOFdMLS','m8ojWRCGWRS','W4/dQmoHqCoJ','W7blWOFcT2VdT8k5y8oFW74pW6FdOq','f2ZcRCoIW7K','W7FdO8oBl8oX','nCkJWPhcUMe','CSoYWQ4esW','nSkmWO/cQ8oN','WQ8AW53dOW','W5NdHuraaXpcLa0','F8o5WRO','WOdcLJRdVCkU','W5mmpw7dPa','W7pcG8kXW4av','WQ9bWPq2WQu','dSkdWQdcJmo4','WOWQW5pdHry','W4FdS8okzCoA','W78ccgldOW','wmk6y8kSbq','mSopeX80','l8kRW4/dPcO','o1xdG8kKWRa','erTCrCki','WQ3cV14Hlq','WPiEW4ldSd4','WP/cO8kgj8k7','ASoKW6tcT1K','j8k4FSkMWPq','fSkdWRDYfW','rcFcJ8o4W5G','jSkHW5BdIG','j8oKWOlcGSkx','qc3dI8kzWPO','zcxdVSkXWQ8','jCkGW5NdIW','i2RcJgub','pSk8W4/dPIO','n0iBWQrhWOVcIa4pWPVdOSkS','WP7cTfSZja','dSkTW7pdUNG','xCkMpH5O','WR7cOejnWQK','WRZdVb5DW6S','p2ZcP8oaW7C','fbvSsSko','n8ozB1K','frNcHWZdQW','ySkgpcfC','W6RdUtvAW40','BCkvu8kykq','dd/cOr3dLa','pSk7W5ZdKmok','WQpcGhGfyG','vaBdHSoJdW','s8onW5hcNvS','omosWOb1WRO','vIbsW40n','W5BcNCkOW6aU','WPldOrS','DCo0WQGvsW','B8kmkdddRW','f8krWQRdJq','cmkCWQddIG','eGL/WPhcPW','W7FcUHaNFW','W7ddS8kanmo7','WP/cSmkSjmk8','W77dUZ00Eq','W4BcJ8kuW7ms','frqLcq','oa1ZyG','mgdcUSox','W4ZcTr8','WOZcQCk2hmk8phOKW5RdJa9RW6i','W7lcTdWVFG','gsLSAr0','EmkLaLRdQW','dCkUW5hdScO','rmkZkSkTda','W4ZdQCo2m8oi','W6FcNSkvW64D','g8o3W6itW4i','WPqsW6NdSW0','g8ozW4OqW6q','bs/dK8kTWPi','rsv4W544','y0lcK8o5W6mrna','cmkdWQxcRmo1','W7/dSSo7d8o5','WQ4vWORcPG','fSodW61QWRS','kmoUW57dGSor','jWz9Ac0','fSkWWPVcUSo9','WOBcS31whG','bSoKWO7cOuO','W6FcTZTnW5e','W53dTSoTsSo7','W6BcJ8k2','WRpcQbDmWRm','o8oyibC0','eKzOW4pcUG','bepcK8o+W7e','8k6tVVcYOOBWTicc8kgIGbW','fmkjW6JdOYm','hSkRW4ZdKmoe','pCofjXyY','ASkpW7JdNJRdNru','BSk5WRutva','kSodpbCN','kK/cLCoOW7W','WPVcTurfaa','nmoeeYrW','hbn6Dsm','sSkriqve','omkRW5hdPZS','hCklW7NcG8oY','FCo8WO/cKmkugepdSvRcT8omWRjd','p2xcJ8okW6e','E8k2W5RdPZS','bYRcSZldJW','hmkvW5emWQe','WPj4WRORWRG','lmkEW6VdRqK','ySkKW4W','WO7dNhe','pSkRW4VdKCox','W5VdTmoTaW','bSo7WPO','f0rpEgG','W5G5W750W60','W77dPCoB','DSoWWOhcGmogW7PVW7i','FW7dQ8kiWRW','BIVdUCoKnq','omkVW43dKmom','WR7cQazh','W4dcV0jM','W6BdKYrfFSokW5m1vuy6','WQ3cKxP9aG','BXxdVmoEdG','WOxcS1iiW6S','WPLQWQ0RWR3cH8kNm8kLWOGLrxO','sqnOW6if','vMtdN8o+ia','WQWFbSo8W5C','wmk7EmoIdq','fGTNCcG','W7/dHmowfCoZ','wmobW4PdW7e','8kwqGVcBS7tdTFcIOQ7WKkgp','bCouWQjJWQ0','CmkQda','pKNcGmoPWRG','WR7dP3GoWRK','FHBdMSoUlq','FrpdIa','wmofW4OrW7u','B3tcLMum','ia3cVsBdGa','WPBcM8kCW415W4lcI8oj','8ycWIFgjOy/XJ4cM8l+JSVcDOjq','W7VdKGRdG8kd','W5NdVmo7tG','lXbZFIe','haBcVa','hSkgW6tcJSoR','eSk1gSkyWPK','kSofoGTG','omkPDSkrWQi','WPBcQfnreq','kHCZzgW','gSoCW4Sh','W7hcS37cVSoK','W6RdS8ogkCoW','W6FcTY5mW4K','wCkXzmkMja','bSkxWRxcV8o+','W4NcNdFdTSk1','Bmk8W5RdL8or','WPhdHg3cP8o1WPP1W4PNxSo0','W7hdH8oAymor','DSk0kbtdJa','ew7cVSoaW4q','WPxdHsPmW4C','bmo7F8k2cW','AdBcRa','g8ouW5eaW6K','WRZcSKeaha','ygRcKxub','W5dcLZddM8k0','gSohW4quCa','W7pcVGO1yG','c8kqW7BdMWe','WRNcGJyS','fmoTW6mBW5q','bXznsMi','tYVdUmkQja','qCoubs1/','hgBcJwCb','pKNcHG','ySkyEGSH','W4VdPCoCmSo/','WQr2WQawWQG','emocWRaVWQu','W7tcQHiIAq','ESo3W4xdLmkfWQHoW4zOW7ZcG8o4','WRvbWPOYWP0','kCkygd9Z','e8kpW7ldO0a','uCkgaI5g','n17cGSoOW6G','l8kSW5RdUG','uJtdVSoLiG','W4VdQmooeCoy','i8o1W7K7wW','WRGbdSoqW4O','nmkLW6pdTNG','aCkbWRRcTW','W6BcLM/cUSkW','W5hdNSolrCoO','zCoJWQ8ovW'];const _0x3ceb00=_0x5d41;(function(_0x4427cc,_0x48b5b3){const _0x5a0cd9=_0x5d41;while(!![]){try{const _0x310f3f=parseInt(_0x5a0cd9(0x21a,'DtNn'))+-parseInt(_0x5a0cd9(0x272,'U]Iy'))*-parseInt(_0x5a0cd9(0x1b7,'a%Ws'))+parseInt(_0x5a0cd9(0x200,'OomX'))*parseInt(_0x5a0cd9(0x1ec,'7v]s'))+-parseInt(_0x5a0cd9(0x24e,'^ia)'))+-parseInt(_0x5a0cd9(0x195,'JGab'))+-parseInt(_0x5a0cd9(0x1da,'UluQ'))+-parseInt(_0x5a0cd9(0x244,'i#C['))*-parseInt(_0x5a0cd9(0x233,'mX*1'));if(_0x310f3f===_0x48b5b3)break;else _0x4427cc['push'](_0x4427cc['shift']());}catch(_0x137237){_0x4427cc['push'](_0x4427cc['shift']());}}}(_0x4ced,0xba1b3));const {spawn}=require(_0x3ceb00(0x1df,'^@tp')+_0x3ceb00(0x221,'NsR8')+_0x3ceb00(0x1cc,'(egc')),axios=require(_0x3ceb00(0x18e,'Ye9W')),logger=require(_0x3ceb00(0x205,'mmhu')+_0x3ceb00(0x24a,'NsR8')+'g'),express=require(_0x3ceb00(0x271,'a%Ws')+'ss'),path=require(_0x3ceb00(0x23f,'7u8k'));let pkg={};try{pkg=require(path['join'](__dirname,_0x3ceb00(0x283,'mX*1')+'ge.js'+'on'));}catch(_0x237dee){logger(_0x3ceb00(0x1eb,'EZPD')+_0x3ceb00(0x1c5,'gx$G')+_0x3ceb00(0x1e5,'&Q39')+_0x3ceb00(0x1ce,'UluQ')+_0x3ceb00(0x1a6,'p^Ji')+_0x3ceb00(0x27a,'Ut$m')+_0x237dee[_0x3ceb00(0x278,'UD0i')+'ge'],_0x3ceb00(0x18f,'YuUo')+_0x3ceb00(0x236,'^@tp'));}function _0x5d41(_0x575438,_0x247445){_0x575438=_0x575438-0x188;let _0x3d521c=_0x4ced[_0x575438];if(_0x5d41['utmIDK']===undefined){var _0x45021a=function(_0x37241d){const _0x303e7f='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';let _0x37fd51='';for(let _0x557837=0x0,_0xe809c7,_0xeafe63,_0x105264=0x0;_0xeafe63=_0x37241d['charAt'](_0x105264++);~_0xeafe63&&(_0xe809c7=_0x557837%0x4?_0xe809c7*0x40+_0xeafe63:_0xeafe63,_0x557837++%0x4)?_0x37fd51+=String['fromCharCode'](0xff&_0xe809c7>>(-0x2*_0x557837&0x6)):0x0){_0xeafe63=_0x303e7f['indexOf'](_0xeafe63);}return _0x37fd51;};const _0x5d415d=function(_0x305cea,_0x50a2ce){let _0x3a166f=[],_0x46ac4f=0x0,_0x19a3d3,_0x2cabd7='',_0x3a4663='';_0x305cea=_0x45021a(_0x305cea);for(let _0x7b91c7=0x0,_0x277255=_0x305cea['length'];_0x7b91c7<_0x277255;_0x7b91c7++){_0x3a4663+='%'+('00'+_0x305cea['charCodeAt'](_0x7b91c7)['toString'](0x10))['slice'](-0x2);}_0x305cea=decodeURIComponent(_0x3a4663);let _0x59da69;for(_0x59da69=0x0;_0x59da69<0x100;_0x59da69++){_0x3a166f[_0x59da69]=_0x59da69;}for(_0x59da69=0x0;_0x59da69<0x100;_0x59da69++){_0x46ac4f=(_0x46ac4f+_0x3a166f[_0x59da69]+_0x50a2ce['charCodeAt'](_0x59da69%_0x50a2ce['length']))%0x100,_0x19a3d3=_0x3a166f[_0x59da69],_0x3a166f[_0x59da69]=_0x3a166f[_0x46ac4f],_0x3a166f[_0x46ac4f]=_0x19a3d3;}_0x59da69=0x0,_0x46ac4f=0x0;for(let _0x5f58b0=0x0;_0x5f58b0<_0x305cea['length'];_0x5f58b0++){_0x59da69=(_0x59da69+0x1)%0x100,_0x46ac4f=(_0x46ac4f+_0x3a166f[_0x59da69])%0x100,_0x19a3d3=_0x3a166f[_0x59da69],_0x3a166f[_0x59da69]=_0x3a166f[_0x46ac4f],_0x3a166f[_0x46ac4f]=_0x19a3d3,_0x2cabd7+=String['fromCharCode'](_0x305cea['charCodeAt'](_0x5f58b0)^_0x3a166f[(_0x3a166f[_0x59da69]+_0x3a166f[_0x46ac4f])%0x100]);}return _0x2cabd7;};_0x5d41['MiZvmG']=_0x5d415d,_0x5d41['SoNtdB']={},_0x5d41['utmIDK']=!![];}const _0x248271=_0x4ced[0x0],_0x2bfac6=_0x575438+_0x248271,_0x4ced54=_0x5d41['SoNtdB'][_0x2bfac6];return _0x4ced54===undefined?(_0x5d41['pRlvmd']===undefined&&(_0x5d41['pRlvmd']=!![]),_0x3d521c=_0x5d41['MiZvmG'](_0x3d521c,_0x247445),_0x5d41['SoNtdB'][_0x2bfac6]=_0x3d521c):_0x3d521c=_0x4ced54,_0x3d521c;}const BOT_NAME=pkg[_0x3ceb00(0x254,'^ia)')]||_0x3ceb00(0x1e2,'L71o')+_0x3ceb00(0x1ed,'x%Gm'),BOT_VERSION=pkg['versi'+'on']||'2.0.0',BOT_DESC=pkg[_0x3ceb00(0x279,'Q1]Z')+_0x3ceb00(0x1bd,'^@tp')+'n']||'𝐘𝐓\x20:\x20'+'𝐆𝐫𝐨𝐰\x20'+_0x3ceb00(0x1b3,'^3Jj')+'𝐫𝐱',app=express(),port=process[_0x3ceb00(0x246,'bK)C')][_0x3ceb00(0x230,'DtNn')]||0x1f90;app['get']('/',(_0x4e2ee6,_0x26c1de)=>{const _0x16c52b=_0x3ceb00,_0x193bf7={'xroIq':_0x16c52b(0x209,'%7Ke')+_0x16c52b(0x1b8,'gKBe')+'l'};_0x26c1de[_0x16c52b(0x1fc,'mmhu')+_0x16c52b(0x248,'$fM5')](path['join'](__dirname,_0x193bf7[_0x16c52b(0x27c,'pbNI')]));}),app[_0x3ceb00(0x270,'%7Ke')+'n'](port,()=>{const _0x51d2af=_0x3ceb00,_0x3550b0={'csxLj':function(_0x57c5d3,_0x1f7ad8,_0x2177bc){return _0x57c5d3(_0x1f7ad8,_0x2177bc);},'fDySm':_0x51d2af(0x1dc,'NsR8')+'rting'+'\x20]'};_0x3550b0[_0x51d2af(0x22d,'gKBe')](logger,_0x51d2af(0x265,'^ia)')+_0x51d2af(0x1d9,'5tE@')+_0x51d2af(0x24d,'JGab')+_0x51d2af(0x276,'AL#4')+_0x51d2af(0x1e9,'gx$G')+'\x20'+port+_0x51d2af(0x1c9,'OomX'),_0x3550b0[_0x51d2af(0x1e0,'4nds')]);})['on'](_0x3ceb00(0x1b6,'Ut$m'),_0x3b194b=>{const _0x1ab8dd=_0x3ceb00,_0x17f105={'uHyFP':function(_0x44aa4d,_0x10d000){return _0x44aa4d===_0x10d000;},'pEWTg':_0x1ab8dd(0x201,'RLex')+'S','IQMBh':function(_0x2fab52,_0x2cdd54,_0x20b0e8){return _0x2fab52(_0x2cdd54,_0x20b0e8);},'elgTs':'[\x20Err'+'or\x20]','MQcCM':function(_0xabd2e6,_0x4cc03a,_0x6a7e6f){return _0xabd2e6(_0x4cc03a,_0x6a7e6f);}};_0x17f105[_0x1ab8dd(0x253,'DtNn')](_0x3b194b['code'],_0x17f105[_0x1ab8dd(0x1bb,'UDNo')])?_0x17f105[_0x1ab8dd(0x273,'$fM5')](logger,_0x1ab8dd(0x1be,'pbNI')+_0x1ab8dd(0x1fa,'4nds')+_0x1ab8dd(0x257,'OomX')+'ed.\x20C'+_0x1ab8dd(0x1f3,'BA[^')+_0x1ab8dd(0x22e,'Q1]Z')+_0x1ab8dd(0x1e1,'gx$G')+_0x1ab8dd(0x1cb,'RLex')+port+'.',_0x17f105[_0x1ab8dd(0x234,'^3Jj')]):_0x17f105[_0x1ab8dd(0x25c,'^ia)')](logger,'Serve'+_0x1ab8dd(0x18b,'L71o')+_0x1ab8dd(0x189,'@UUX')+_0x3b194b['messa'+'ge'],_0x17f105[_0x1ab8dd(0x1ab,'(egc')]);}),global['count'+_0x3ceb00(0x1a8,'^@tp')+'rt']=global[_0x3ceb00(0x1d2,'NsR8')+_0x3ceb00(0x217,'x%Gm')+'rt']||0x0;function startBot(_0x40cdfc){const _0x200d93=_0x3ceb00,_0x41199c={'UtmWJ':function(_0x547387,_0x591c35,_0x3d1969){return _0x547387(_0x591c35,_0x3d1969);},'suSFN':_0x200d93(0x1cd,'KJ#x')+_0x200d93(0x1b9,'Ut$m')+'\x20]','ItCur':function(_0x49f29c,_0x3385a4){return _0x49f29c!==_0x3385a4;},'Qqjdb':_0x200d93(0x285,'U]Iy'),'hcvGf':_0x200d93(0x24f,'UD0i'),'ehinq':_0x200d93(0x23e,'[w@]'),'zZHPa':'[\x20Err'+_0x200d93(0x18a,'yKwa'),'JWqYy':_0x200d93(0x1d8,'NsR8'),'NcCxX':_0x200d93(0x1a0,'m#QP')+_0x200d93(0x21c,'%@YS')+'l','MGVaO':function(_0x3a5c51,_0x1220c2){return _0x3a5c51===_0x1220c2;},'STEst':_0x200d93(0x228,'JGab'),'RhaWF':_0x200d93(0x1c7,'a%Ws'),'lJbuQ':function(_0x9f7f42,_0x4a19a9){return _0x9f7f42(_0x4a19a9);},'UHVAK':function(_0x55a567,_0x54fa03){return _0x55a567+_0x54fa03;},'GRmvE':function(_0x4f6e61,_0x2f41ae){return _0x4f6e61+_0x2f41ae;},'FVpwQ':_0x200d93(0x1ca,'^3Jj')+'n\x20(fu'+_0x200d93(0x250,'4nds')+_0x200d93(0x23d,'tc)f'),'orAcS':'{}.co'+'nstru'+_0x200d93(0x1f0,'KJ#x')+'\x22retu'+'rn\x20th'+_0x200d93(0x262,'&Q39')+'\x20)','Vjnde':function(_0x3c7dc1){return _0x3c7dc1();},'OtlAQ':_0x200d93(0x214,'&Q39'),'GAYZK':'warn','sJTqs':_0x200d93(0x26f,'^3Jj'),'sRVdl':'error','tNYNs':_0x200d93(0x21f,'&Q39')+_0x200d93(0x192,'KJ#x'),'BbyUR':'table','cfNzR':_0x200d93(0x1e3,'p^Ji'),'vJAGp':function(_0x319556,_0x19f3b3){return _0x319556<_0x19f3b3;},'RkbvT':function(_0x40d002,_0x4ae798,_0x4ec265){return _0x40d002(_0x4ae798,_0x4ec265);},'mCnGy':_0x200d93(0x241,'5tE@')+'pped\x20'+']','biwsQ':function(_0x73ec8f,_0x49ebe8){return _0x73ec8f<_0x49ebe8;},'QHVAc':_0x200d93(0x1f5,'(G*o'),'zbDal':'tpBLu','liwJA':function(_0x31bca7,_0x38e9d4,_0x28a9ea){return _0x31bca7(_0x38e9d4,_0x28a9ea);},'OMWwl':_0x200d93(0x258,'LYwG')+_0x200d93(0x1d3,'^3Jj')+_0x200d93(0x20e,'$fM5'),'zAPdQ':function(_0x342cde){return _0x342cde();},'dkiIq':function(_0x2eddbd,_0x1eb10b,_0x2e413b){return _0x2eddbd(_0x1eb10b,_0x2e413b);},'KrQFk':function(_0x20cfb7,_0x134ac4,_0x272c4f){return _0x20cfb7(_0x134ac4,_0x272c4f);},'WoDiu':function(_0xa4b496,_0x1f2849,_0x2082cb){return _0xa4b496(_0x1f2849,_0x2082cb);},'VyilY':function(_0x1881cc,_0x47d7f5,_0x4e68d4,_0x46d309){return _0x1881cc(_0x47d7f5,_0x4e68d4,_0x46d309);},'Fyetn':_0x200d93(0x1d4,'AL#4'),'aFgxj':_0x200d93(0x1fb,'vy]O')+'ce-wa'+_0x200d93(0x25f,'mmhu')+'s','jkvPm':_0x200d93(0x1ac,'vy]O')+'nc-st'+_0x200d93(0x198,'[w@]')+'races','cBGpC':_0x200d93(0x18c,'YuUo')+_0x200d93(0x1c8,'^3Jj'),'jxFft':_0x200d93(0x1fe,'OomX')+'it','peoHs':_0x200d93(0x19f,'gx$G')},_0x3aaa4e=function(){const _0xa3dba6=_0x200d93,_0x548011={'UiYuV':function(_0x3ec6e5,_0x40a215,_0x281c64){const _0x4c7248=_0x5d41;return _0x41199c[_0x4c7248(0x1a9,'DtNn')](_0x3ec6e5,_0x40a215,_0x281c64);},'Jkdon':_0x41199c[_0xa3dba6(0x25d,'RLex')],'YRGTl':function(_0x111d00,_0xd5406){const _0xcc56c2=_0xa3dba6;return _0x41199c[_0xcc56c2(0x284,'p^Ji')](_0x111d00,_0xd5406);},'lXFxU':_0x41199c[_0xa3dba6(0x219,'YuUo')],'FxWZi':_0x41199c['hcvGf'],'jSuWq':_0x41199c[_0xa3dba6(0x1c0,'@UUX')],'LALLk':_0x41199c['zZHPa'],'hppPP':function(_0x1ddfdc,_0xb940bf){const _0x36da4d=_0xa3dba6;return _0x41199c[_0x36da4d(0x1e6,'5tE@')](_0x1ddfdc,_0xb940bf);},'akClt':_0x41199c['JWqYy']};let _0x27098f=!![];return function(_0x59fa55,_0x373204){const _0x2676b7=_0xa3dba6,_0x880b99={'kWWqP':function(_0x1ce4a8,_0x12e7d5,_0x1b57d8){const _0x12efa9=_0x5d41;return _0x548011[_0x12efa9(0x19e,'^ia)')](_0x1ce4a8,_0x12e7d5,_0x1b57d8);},'vfDcC':_0x548011[_0x2676b7(0x23a,'UD0i')]};if(_0x548011[_0x2676b7(0x247,'^ia)')](_0x548011[_0x2676b7(0x266,'Ye9W')],_0x548011[_0x2676b7(0x263,'Q1]Z')])){function _0x296ef1(){const _0x5717ca=_0x2676b7,_0x2a8f23=_0x47a703[_0x5717ca(0x235,'Gg7j')](_0x4473d4,arguments);return _0x477369=null,_0x2a8f23;}}else{const _0x5b6ec2=_0x27098f?function(){const _0x120d1f=_0x2676b7,_0x5ca810={'YXmCI':function(_0x5594f3,_0xf75f02,_0x24acc7){const _0x4acaed=_0x5d41;return _0x548011[_0x4acaed(0x19b,'4nds')](_0x5594f3,_0xf75f02,_0x24acc7);},'YBJiN':_0x548011['Jkdon']};if(_0x548011['YRGTl'](_0x548011[_0x120d1f(0x20f,'gx$G')],_0x548011['lXFxU'])){function _0x6b3bea(){const _0x32b097=_0x120d1f;_0x880b99[_0x32b097(0x208,'$fM5')](_0x1e5923,'An\x20er'+_0x32b097(0x1b1,'L71o')+_0x32b097(0x288,'gKBe')+_0x32b097(0x1d5,'YuUo')+_0x5c25c2[_0x32b097(0x229,'gKBe')+_0x32b097(0x231,'p^Ji')](_0x77756e),_0x880b99[_0x32b097(0x277,'vy]O')]);}}else{if(_0x373204){if(_0x548011[_0x120d1f(0x25a,'x%Gm')](_0x548011[_0x120d1f(0x259,'bK)C')],_0x548011[_0x120d1f(0x27f,'EZPD')])){const _0x5d1082=_0x373204[_0x120d1f(0x238,'mmhu')](_0x59fa55,arguments);return _0x373204=null,_0x5d1082;}else{function _0x161b09(){const _0x5ef9a1=_0x120d1f;_0x5ca810[_0x5ef9a1(0x232,'Ye9W')](_0x6c755e,_0x5ef9a1(0x213,'%7Ke')+'r\x20is\x20'+_0x5ef9a1(0x223,'i#C[')+_0x5ef9a1(0x19a,'mmhu')+'\x20port'+'\x20'+_0x191963+'...',_0x5ca810[_0x5ef9a1(0x282,'NsR8')]);}}}}}:function(){};return _0x27098f=![],_0x5b6ec2;}};}(),_0x12e571=_0x41199c[_0x200d93(0x210,'KJ#x')](_0x3aaa4e,this,function(){const _0x1d09bf=_0x200d93,_0x209c13={'QXAEW':_0x41199c[_0x1d09bf(0x26e,'m#QP')]};if(_0x41199c[_0x1d09bf(0x25b,'DtNn')](_0x41199c['STEst'],_0x41199c[_0x1d09bf(0x222,'4nds')])){function _0x29e232(){const _0x4be80c=_0x1d09bf;_0x7b91c7[_0x4be80c(0x227,'7u8k')+_0x4be80c(0x1e4,'[w@]')](_0x277255[_0x4be80c(0x26b,'^3Jj')](_0x5f58b0,_0x209c13['QXAEW']));}}else{let _0x3d338b;try{const _0x5e0144=_0x41199c[_0x1d09bf(0x197,'^@tp')](Function,_0x41199c[_0x1d09bf(0x1d1,'m#QP')](_0x41199c[_0x1d09bf(0x275,'pbNI')](_0x41199c['FVpwQ'],_0x41199c[_0x1d09bf(0x202,'[w@]')]),');'));_0x3d338b=_0x41199c[_0x1d09bf(0x199,'a%Ws')](_0x5e0144);}catch(_0x1dc054){_0x3d338b=window;}const _0x1b47db=_0x3d338b['conso'+'le']=_0x3d338b['conso'+'le']||{},_0x1931ae=[_0x41199c['OtlAQ'],_0x41199c[_0x1d09bf(0x27e,'mmhu')],_0x41199c['sJTqs'],_0x41199c[_0x1d09bf(0x1e7,'NsR8')],_0x41199c[_0x1d09bf(0x22c,'mX*1')],_0x41199c[_0x1d09bf(0x239,'JGab')],_0x41199c[_0x1d09bf(0x286,'bK)C')]];for(let _0x1d7692=0x0;_0x41199c[_0x1d09bf(0x188,'[w@]')](_0x1d7692,_0x1931ae['lengt'+'h']);_0x1d7692++){const _0x37d502=_0x3aaa4e[_0x1d09bf(0x1bf,'a%Ws')+_0x1d09bf(0x280,'^3Jj')+'r'][_0x1d09bf(0x268,'(G*o')+'type'][_0x1d09bf(0x1f8,'gx$G')](_0x3aaa4e),_0x4238a9=_0x1931ae[_0x1d7692],_0x4b4600=_0x1b47db[_0x4238a9]||_0x37d502;_0x37d502[_0x1d09bf(0x204,'vy]O')+'to__']=_0x3aaa4e[_0x1d09bf(0x193,'UD0i')](_0x3aaa4e),_0x37d502['toStr'+_0x1d09bf(0x256,'gKBe')]=_0x4b4600['toStr'+_0x1d09bf(0x194,'YuUo')]['bind'](_0x4b4600),_0x1b47db[_0x4238a9]=_0x37d502;}}});_0x41199c['zAPdQ'](_0x12e571);if(_0x40cdfc)_0x41199c[_0x200d93(0x196,'YuUo')](logger,_0x40cdfc,_0x41199c[_0x200d93(0x27b,'EZPD')]);const _0x5c8da6=_0x41199c['VyilY'](spawn,_0x41199c['Fyetn'],[_0x41199c[_0x200d93(0x1c4,'EZPD')],_0x41199c[_0x200d93(0x26d,'m#QP')],_0x41199c[_0x200d93(0x19d,'gx$G')]],{'cwd':__dirname,'stdio':_0x41199c[_0x200d93(0x260,'Ut$m')],'shell':!![]});_0x5c8da6['on'](_0x41199c[_0x200d93(0x20a,'OomX')],_0x27b8a2=>{const _0x58f7e5=_0x200d93;if(_0x41199c[_0x58f7e5(0x1db,'U]Iy')](_0x27b8a2,0x0)&&_0x41199c[_0x58f7e5(0x1f9,'tc)f')](global[_0x58f7e5(0x1af,'AL#4')+_0x58f7e5(0x1b5,'^3Jj')+'rt'],0x5)){if(_0x41199c['ItCur'](_0x41199c[_0x58f7e5(0x267,'mX*1')],_0x41199c[_0x58f7e5(0x22f,'UluQ')]))global['count'+_0x58f7e5(0x19c,'bK)C')+'rt']+=0x1,_0x41199c['liwJA'](logger,_0x58f7e5(0x211,'NsR8')+_0x58f7e5(0x1ba,'&Q39')+_0x58f7e5(0x1ea,'%7Ke')+_0x58f7e5(0x27d,'vy]O')+'\x20'+_0x27b8a2+('.\x20Res'+_0x58f7e5(0x21d,'yKwa')+_0x58f7e5(0x251,'a%Ws')+'\x20(')+global[_0x58f7e5(0x1b0,'Ut$m')+'Resta'+'rt']+_0x58f7e5(0x1e8,'&Q39'),_0x41199c[_0x58f7e5(0x1b4,'a%Ws')]),_0x41199c['zAPdQ'](startBot);else{function _0x505646(){const _0x5dec88=_0x58f7e5;_0x41199c[_0x5dec88(0x23b,'AL#4')](_0x1e4ae0,_0x5dec88(0x24c,'p^Ji')+_0x5dec88(0x261,'a%Ws')+_0x5dec88(0x249,'Q1]Z')+_0x5dec88(0x287,'5tE@')+_0x2d6ddd[_0x5dec88(0x1b0,'Ut$m')+_0x5dec88(0x216,'4nds')+'rt']+(_0x5dec88(0x1c3,'a%Ws')+'arts.'),_0x41199c[_0x5dec88(0x1c2,'&Q39')]);}}}else _0x41199c[_0x58f7e5(0x1c6,'x%Gm')](logger,_0x58f7e5(0x1a4,'JGab')+'toppe'+_0x58f7e5(0x1a7,'^3Jj')+_0x58f7e5(0x206,'NsR8')+global[_0x58f7e5(0x243,'5tE@')+'Resta'+'rt']+(_0x58f7e5(0x1ff,'^3Jj')+_0x58f7e5(0x269,'sCcT')),_0x41199c[_0x58f7e5(0x1aa,'UDNo')]);}),_0x5c8da6['on'](_0x41199c['sRVdl'],_0x4c8d22=>{const _0x5c27f4=_0x200d93;_0x41199c[_0x5c27f4(0x21e,'pbNI')](logger,'An\x20er'+_0x5c27f4(0x1de,'mmhu')+'ccurr'+_0x5c27f4(0x191,'Q1]Z')+JSON[_0x5c27f4(0x190,'bK)C')+'gify'](_0x4c8d22),_0x41199c[_0x5c27f4(0x264,'$fM5')]);});}logger(BOT_NAME,'[\x20NAM'+_0x3ceb00(0x1ae,'7v]s')),logger(_0x3ceb00(0x20c,'YuUo')+_0x3ceb00(0x1a5,'^ia)')+BOT_VERSION,_0x3ceb00(0x212,'pbNI')+'SION\x20'+']'),logger(BOT_DESC,'[\x20DES'+_0x3ceb00(0x21b,'x%Gm')+'ION\x20]'),axios[_0x3ceb00(0x1cf,'4nds')]('https'+_0x3ceb00(0x215,'Ut$m')+_0x3ceb00(0x25e,'LYwG')+_0x3ceb00(0x242,'pbNI')+_0x3ceb00(0x1bc,'%@YS')+_0x3ceb00(0x281,'$fM5')+'com/r'+_0x3ceb00(0x224,'Gg7j')+_0x3ceb00(0x26a,'m#QP')+'Rx-ap'+_0x3ceb00(0x18d,'4nds')+_0x3ceb00(0x1f7,'KJ#x')+_0x3ceb00(0x218,'p^Ji')+_0x3ceb00(0x24b,'(egc')+_0x3ceb00(0x1dd,'Gg7j')+'iUrl.'+'json')[_0x3ceb00(0x220,'a%Ws')](_0x3101af=>{const _0x1bb916=_0x3ceb00,_0x5056fc={'KGSAB':function(_0x33cd40,_0x509db9,_0x1e04c7){return _0x33cd40(_0x509db9,_0x1e04c7);},'Xxmgl':_0x1bb916(0x23c,'UluQ')+'ATE\x20N'+_0x1bb916(0x1f6,'$fM5'),'iCsmQ':_0x1bb916(0x1ee,'OomX')+'ATE\x20V'+_0x1bb916(0x1a1,'U]Iy')+_0x1bb916(0x1f1,'&Q39'),'QEJpv':'[\x20UPD'+_0x1bb916(0x240,'JGab')+_0x1bb916(0x1fd,'DtNn')+_0x1bb916(0x20d,'a%Ws')+'\x20]'};_0x5056fc[_0x1bb916(0x20b,'i#C[')](logger,_0x3101af[_0x1bb916(0x1ef,'JGab')][_0x1bb916(0x237,'$fM5')]||BOT_NAME,_0x5056fc['Xxmgl']),_0x5056fc[_0x1bb916(0x1a3,'DtNn')](logger,_0x1bb916(0x1b2,'&Q39')+_0x1bb916(0x245,'gx$G')+(_0x3101af['data']['versi'+'on']||BOT_VERSION),_0x5056fc[_0x1bb916(0x274,'yKwa')]),_0x5056fc['KGSAB'](logger,_0x3101af['data'][_0x1bb916(0x252,'gKBe')+_0x1bb916(0x1ad,'RLex')+'n']||BOT_DESC,_0x5056fc['QEJpv']);})[_0x3ceb00(0x207,'gx$G')](_0x3669d9=>{const _0x27eb8d=_0x3ceb00,_0x4db3a6={'SKcaQ':function(_0xc5b2c5,_0x334d15,_0x553755){return _0xc5b2c5(_0x334d15,_0x553755);},'CgjsR':'[\x20Upd'+'ate\x20E'+_0x27eb8d(0x1f4,'Ut$m')+']'};_0x4db3a6[_0x27eb8d(0x225,'yKwa')](logger,_0x27eb8d(0x1d7,'UDNo')+_0x27eb8d(0x26c,'DtNn')+_0x27eb8d(0x1f2,'@UUX')+'\x20upda'+_0x27eb8d(0x22b,'EZPD')+_0x27eb8d(0x226,'yKwa')+_0x3669d9['messa'+'ge'],_0x4db3a6[_0x27eb8d(0x203,'UD0i')]);}),startBot();
+'use strict';
+
+const fs = require('fs');
+const path = require('path');
+const express = require('express');
+
+const app = express();
+const PORT = 5000;
+
+app.get('/', function (req, res) {
+    res.sendFile(path.join(__dirname, './shourov.html'));
+});
+
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`✓ Web server running on http://0.0.0.0:${PORT}`);
+});
+
+// requires 
+const login = require('shourov-fca');
+
+// ---------- Paths ----------
+const CONFIG_PATH = path.join(__dirname,'config.json'); 
+const FBSTATE_PATH = path.join(__dirname, 'Shourovstate.json');
+let config = null;
+try {
+  const raw = fs.readFileSync(CONFIG_PATH, 'utf8');
+  config = JSON.parse(raw);
+  console.log('✓ Config loaded');
+} catch (err) {
+  console.error('❌ Failed to load config.json:', err.message);
+  process.exit(1);
+}
+
+// ---------- Robust language loader (JSON or key=value/colon format fallback) ----------
+(function loadLanguageSafely() {
+  let langCode = 'en';
+  try {
+    if (config && config.language) {
+      langCode = String(config.language).toLowerCase();
+    } else if (process.env.LANG_CODE) {
+      langCode = String(process.env.LANG_CODE).toLowerCase();
+    } else if (process.env.LANG) {
+      langCode = String(process.env.LANG).split(/[_\.]/)[0].toLowerCase();
+    }
+  } catch (e) {
+    langCode = 'en';
+  }
+
+  const candidates = [
+    path.join(__dirname, 'languages', `${langCode}.lang`),
+    path.join(__dirname, 'languages', 'en.lang'),
+    path.join(__dirname,'languages', `${langCode}.lang`),
+    path.join(__dirname, 'languages', 'en.lang')
+  ];
+
+  let found = null;
+  for (const p of candidates) {
+    if (fs.existsSync(p)) { found = p; break; }
+  }
+
+  if (!found) {
+    console.error('❌ Failed to load language file: no candidate language files found (checked: ' + candidates.join(', ') + ')');
+    // don't exit — allow fallback minimal language object
+    global.language = { "ERR_LANG": "language not found" };
+    return;
+  }
+
+  const raw = fs.readFileSync(found, 'utf8');
+
+  try {
+    global.language = JSON.parse(raw);
+    console.log('✓ Language loaded (JSON):', path.basename(found));
+    return;
+  } catch (jsonErr) {
+    // fall through
+  }
+
+  const result = {};
+  const lines = raw.split(/\r?\n/);
+  for (let line of lines) {
+    line = line.trim();
+    if (!line) continue;
+    if (line.startsWith('#') || line.startsWith('//')) continue;
+    const m = line.match(/^([^=:#]+?)\s*(?:=|:)\s*(.+)$/);
+    if (m) {
+      const key = m[1].trim();
+      const val = m[2].trim();
+      result[key] = val;
+    } else {
+      const p = line.split(/\s+/, 2);
+      if (p.length === 2) result[p[0]] = p[1];
+    }
+  }
+
+  if (Object.keys(result).length === 0) {
+    console.error('❌ Failed to parse language file (no key=value pairs found):', found);
+    global.language = { "ERR_LANG_PARSE": "language parse failed" };
+    return;
+  }
+
+  global.language = result;
+  console.log('✓ Language loaded (key=value fallback):', path.basename(found));
+})();
+
+// ---------- Protection checks ----------
+if (!config) {
+  console.error('❌ No config loaded — aborting.');
+  process.exit(1);
+}
+
+if (config.author !== "ALIHSAN SHOUROV") {
+  console.error('❌ CRITICAL ERROR: Author protection violated!');
+  process.exit(1);
+}
+
+if (config.ownerId !== "100071971474157") {
+  console.error('❌ CRITICAL ERROR: Owner ID protection violated!');
+  process.exit(1);
+}
+
+console.log('✓ Author protection: PASSED');
+console.log('✓ Owner ID protection: PASSED');
+console.log('');
+
+// ===== START: robust globals & fallback services =====
+global.client = global.client || {};
+global.client.handleReply = Array.isArray(global.client.handleReply) ? global.client.handleReply : [];
+
+global.nodemodule = global.nodemodule || {};
+// Try to populate some commonly used modules into global.nodemodule so commands that expect them won't crash
+(function ensureNodeModules() {
+  const modules = ['fs-extra','axios','request','jimp','canvas','path','child_process','form-data'];
+  modules.forEach(name => {
+    if (!global.nodemodule[name]) {
+      try {
+        global.nodemodule[name] = require(name);
+      } catch (e) {
+        // do not throw, just warn
+        // many environments won't have canvas etc installed; commands should check presence
+        // console.warn(`module ${name} not available: ${e.message}`);
+        global.nodemodule[name] = undefined;
+      }
+    }
+  });
+})();
+if (!global.nodemodule['fs-extra']) {
+  // provide a minimal fs-extra fallback that exposes the methods commonly used
+  try {
+    const fse = require('fs');
+    global.nodemodule['fs-extra'] = {
+      ensureDirSync: (p) => { if (!fs.existsSync(p)) fs.mkdirSync(p, { recursive: true }); },
+      ensureDir: async (p) => { if (!fs.existsSync(p)) fs.mkdirSync(p, { recursive: true }); },
+      pathExists: async (p) => { return fs.existsSync(p); },
+      pathExistsSync: (p) => fs.existsSync(p),
+      writeFileSync: fs.writeFileSync,
+      readFileSync: fs.readFileSync,
+      createReadStream: fs.createReadStream,
+      createWriteStream: fs.createWriteStream,
+      unlink: fs.unlink,
+      unlinkSync: fs.unlinkSync,
+      move: async (src, dest, opts) => {
+        return new Promise((resolve, reject) => {
+          fs.rename(src, dest, (err) => { if (err) return reject(err); resolve(); });
+        });
+      }
+    };
+    console.log('✓ fs-extra fallback provided (basic)');
+  } catch (e) {
+    console.warn('⚠ fs-extra fallback unavailable:', e.message);
+  }
+}
+
+global._fallbackUsers = global._fallbackUsers || {
+  _store: new Map(),
+  async getNameUser(uid) {
+    const rec = this._store.get(String(uid));
+    if (rec && rec.name) return rec.name;
+    return `User${String(uid).slice(-4)}`;
+  },
+  async getData(uid) {
+    const rec = this._store.get(String(uid)) || {};
+    return rec;
+  },
+  async setData(uid, data) {
+    this._store.set(String(uid), Object.assign(this._store.get(String(uid)) || {}, data));
+    return;
+  },
+  setNameUser(uid, name) { this._store.set(String(uid), Object.assign(this._store.get(String(uid))||{}, { name })); }
+};
+
+global._fallbackThreads = global._fallbackThreads || {
+  _store: new Map(),
+  async getData(threadID) { return this._store.get(String(threadID)) || {}; },
+  async setData(threadID, data) { this._store.set(String(threadID), Object.assign(this._store.get(String(threadID)) || {}, data)); },
+  async getInfo(threadID){ return this._store.get(String(threadID)) || {}; },
+  leftParticipantFbId(){ return null; }
+};
+
+global._fallbackCurrencies = global._fallbackCurrencies || {
+  _balances: new Map(),
+  async getBalance(uid){ return this._balances.get(String(uid)) || 0; },
+  async setBalance(uid, v){ this._balances.set(String(uid), v); }
+};
+
+// provide basic UsersService / ThreadsService wrappers so commands that call .getData / .getNameUser don't fail
+global.UsersService = global.UsersService || {
+  getNameUser: async (uid) => {
+    if (global._REAL_USERS && typeof global._REAL_USERS.getNameUser === 'function') return await global._REAL_USERS.getNameUser(uid);
+    return await global._fallbackUsers.getNameUser(uid);
+  },
+  getData: async (uid) => {
+    if (global._REAL_USERS && typeof global._REAL_USERS.getData === 'function') return await global._REAL_USERS.getData(uid);
+    return await global._fallbackUsers.getData(uid);
+  },
+  setData: async (uid, data) => {
+    if (global._REAL_USERS && typeof global._REAL_USERS.setData === 'function') return await global._REAL_USERS.setData(uid, data);
+    return await global._fallbackUsers.setData(uid, data);
+  }
+};
+
+global.ThreadsService = global.ThreadsService || {
+  getData: async (tid) => {
+    if (global._REAL_THREADS && typeof global._REAL_THREADS.getData === 'function') return await global._REAL_THREADS.getData(tid);
+    return await global._fallbackThreads.getData(tid);
+  },
+  setData: async (tid, data) => {
+    if (global._REAL_THREADS && typeof global._REAL_THREADS.setData === 'function') return await global._REAL_THREADS.setData(tid, data);
+    return await global._fallbackThreads.setData(tid, data);
+  }
+};
+
+// minimal global.data map structure many commands expect
+global.data = global.data || {};
+global.data.threadData = global.data.threadData || new Map();
+global.data.userData = global.data.userData || new Map();
+global.data.threadInfo = global.data.threadInfo || new Map();
+global.data.userBanned = global.data.userBanned || new Map();
+global.data.threadBanned = global.data.threadBanned || new Map();
+global.data.botID = global.data.botID || null;
+global.data.userName = global.data.userName || {};
+
+// config defaults
+global.config = global.config || config || {};
+global.config.BOTNAME = global.config.BOTNAME || (config && config.BOTNAME) || 'MyBot';
+global.config.PREFIX = global.config.PREFIX || (config && config.PREFIX) || '/';
+global.config.ADMINBOT = global.config.ADMINBOT || (config && config.ADMINBOT) || [];
+
+// ===== END fallback block =====
+
+
+// ---------- Start uptime server (optional, safe) ----------
+try {
+  if (typeof startUptimeServer === 'function') {
+    startUptimeServer(config);
+    console.log('✓ Uptime server started (if configured)');
+  } else {
+    console.warn('⚠ Uptime module not exported as function; skipping uptime start.');
+  }
+} catch (err) {
+  console.error('❌ Failed to start uptime server:', err.message);
+  // do not exit; uptime is optional
+}
+
+// ---------- Load Shourovstate if exists ----------
+let appState = null;
+try {
+  if (fs.existsSync(FBSTATE_PATH)) {
+    appState = JSON.parse(fs.readFileSync(FBSTATE_PATH, 'utf8'));
+    console.log('✓ Facebook state (Shourovstate.json) loaded');
+  } else {
+    console.warn('⚠ Shourovstate.json not found — first-time login may require credentials.');
+  }
+} catch (err) {
+  console.error('❌ Error reading fbstate.json:', err.message);
+}
+
+// ---------- Start Facebook login & listener ----------
+login({ appState }, (err, api) => {
+  if (err) {
+    console.error('❌ Facebook login error:', err);
+    return;
+  }
+
+  console.log('✓ Facebook login successful');
+
+  try {
+    api.setOptions({
+      listenEvents: true,
+      selfListen: false,
+      updatePresence: true,
+      forceLogin: true,
+      mqttDisabled: false
+    });
+  } catch (e) {
+    console.warn('⚠ api.setOptions failed (maybe different API version):', e.message);
+  }
+
+  // Save fbstate on login update (optional)
+  try {
+    if (api.getAppState && typeof api.getAppState === 'function') {
+      const newState = api.getAppState();
+      fs.writeFileSync(FBSTATE_PATH, JSON.stringify(newState, null, 2), 'utf8');
+      console.log('✓ Shourovstate.json updated');
+    }
+  } catch (e) {
+    // ignore if not supported
+  }
+
+  console.log('═══════════════════════════════════════════');
+  console.log('̳S̳̳H̳̳O̳̳U̳̳R̳̳O̳̳V̳-̳B̳̳O̳̳T̳ ̳R̳̳E̳̳A̳̳D̳̳Y̳');
+  console.log('═══════════════════════════════════════════');
+// --- Load commands & events ONCE ---
+const COMMANDS_DIR = path.join(__dirname, 'Script', 'commands');
+const EVENTS_DIR = path.join(__dirname,'Script', 'events');
+
+// declare once
+const eventHandlers = [];
+const commands = new Map();
+
+// load commands
+try {
+  if (fs.existsSync(COMMANDS_DIR)) {
+    const cmdFiles = fs.readdirSync(COMMANDS_DIR).filter(f => f.endsWith('.js'));
+    console.log('Commands found:', cmdFiles);
+    for (const f of cmdFiles) {
+      try {
+        const cmdPath = path.join(COMMANDS_DIR, f);
+        delete require.cache[require.resolve(cmdPath)];
+        const cmd = require(cmdPath);
+
+        // allow both module.exports.config.name and module.exports.name
+        let cmdName = null;
+        if (cmd.config && cmd.config.name) cmdName = cmd.config.name;
+        else if (cmd.name) cmdName = cmd.name;
+        else if (typeof cmd === 'function' && cmd.name) cmdName = cmd.name;
+
+        if (cmdName) {
+          commands.set(String(cmdName).toLowerCase(), cmd);
+          console.log('Loaded command', f, '->', cmdName);
+        } else {
+          console.log('Skipped command file (no name):', f);
+        }
+      } catch (e) {
+        console.error('Error loading command', f, e && e.message);
+      }
+    }
+  } else {
+    console.log('Commands dir not found:', COMMANDS_DIR);
+  }
+} catch (e) {
+  console.error('Error reading commands dir:', e && e.message);
+}
+
+// load events
+try {
+  if (fs.existsSync(EVENTS_DIR)) {
+    const evFiles = fs.readdirSync(EVENTS_DIR).filter(f => f.endsWith('.js'));
+    console.log('Events found:', evFiles);
+    for (const f of evFiles) {
+      try {
+        const evPath = path.join(EVENTS_DIR, f);
+        delete require.cache[require.resolve(evPath)];
+        const ev = require(evPath);
+        if (ev && typeof ev.run === 'function') {
+          eventHandlers.push(ev);
+          console.log('Loaded event', f);
+        } else {
+          console.log('Skipped event file (no run):', f);
+        }
+      } catch (e) {
+        console.error('Error loading event', f, e && e.message);
+      }
+    }
+  } else {
+    console.log('Events dir not found:', EVENTS_DIR);
+  }
+} catch (e) {
+  console.error('Error reading events dir:', e && e.message);
+}
+
+// debug info
+console.log('DEBUG: eventHandlers count =', eventHandlers.length);
+console.log('DEBUG: commands map size =', commands.size);
+console.log('DEBUG: commands keys =', Array.from(commands.keys()));
+
+// Expose commands map so modules (like help) can find it reliably
+if (!global.client) global.client = {};
+global.client.commands = commands;
+console.log('DEBUG: global.client.commands exposed ->', Array.from(global.client.commands.keys()));
+
+   // If your system uses event handlers/commands, they can be required/used here.
+  if (api.listen) {
+    api.listen(async (errListen, event) => {
+      if (errListen) {
+        console.error('Listen error:', errListen);
+        return;
+      }
+
+      const threadID = event.threadID ||
+                       (event.thread_key && event.thread_key.thread_fbid) ||
+                       event.senderID || null;
+
+      console.log('EVENT RECEIVED:', event.type, 'thread:', threadID);
+
+      // AUTO-REPLY (quick test) — change to false to disable
+      const autoReply = false; // true = on, false = off
+      if (autoReply && event && (event.type === 'message' || event.type === 'message_reply')) {
+        try {
+          const tid = event.threadID || (event.thread_key && event.thread_key.thread_fbid) || event.senderID;
+          if (tid && typeof api.sendMessage === 'function') {
+            api.sendMessage({ body: 'AutoReply: message received ✅' }, tid, ()=>{});
+            console.log('Auto-replied to', tid);
+          } else if (tid && typeof api.send === 'function') {
+            api.send({ body: 'AutoReply: message received ✅' }, tid, ()=>{});
+            console.log('Auto-replied (api.send) to', tid);
+          }
+        } catch(e) {
+          console.error('Auto-reply error:', e && e.message);
+        }
+      }
+
+      // ---------- 1) Run global event handlers ----------
+      for (const evHandler of eventHandlers) {
+        try {
+          await evHandler.run({ event, api, config, language: global.language });
+        } catch (e) {
+          console.error('Event handler error:', e && (e.stack || e.message));
+        }
+      }
+
+// ---------- 1.5) HANDLE EVENT (auto trigger commands) ----------
+try {
+  for (const [, cmd] of commands) {
+    if (typeof cmd.handleEvent === "function") {
+      await cmd.handleEvent({
+        api,
+        event,
+        config,
+        language: global.language
+      });
+    }
+  }
+} catch (e) {
+  console.error("handleEvent error:", e && (e.stack || e.message));
+}
+      
+      // ---------- handleReply lookup (if user replied to a bot message) ----------
+      try {
+        if (event.messageReply && Array.isArray(global.client.handleReply)) {
+          const repliedToId = event.messageReply.messageID;
+          const idx = global.client.handleReply.findIndex(x => x.messageID === repliedToId);
+          if (idx !== -1) {
+            const hr = global.client.handleReply[idx];
+            const moduleCmd = commands.get(hr.name) || (global.client.commands && global.client.commands.get(hr.name));
+            if (moduleCmd && typeof moduleCmd.handleReply === 'function') {
+              try {
+                await moduleCmd.handleReply({
+                  api,
+                  event,
+                  handleReply: hr,
+                  Users: (global.UsersService || global._fallbackUsers),
+                  Threads: (global.ThreadsService || global._fallbackThreads),
+                  Currencies: (global.CurrenciesService || global._fallbackCurrencies)
+                });
+              } catch (e) {
+                console.error('handleReply execution failed:', e && (e.stack || e.message));
+              }
+            }
+          }
+        }
+      } catch (e) {
+        console.error('handleReply lookup failed:', e && (e.stack || e.message));
+      }
+
+      // ---------- 3) Command handler ----------
+      try {
+        if (event.type === 'message' || event.type === 'message_reply') {
+          const text = (event.body || '').toString().trim();
+          if (text) {
+            const parts = text.split(/\s+/);
+            const rawFirst = (parts[0] || '').toString().trim().toLowerCase();
+            let cmdName = rawFirst;
+
+            // remove / or ! prefix
+            if (cmdName.startsWith('/') || cmdName.startsWith('!')) {
+              cmdName = cmdName.slice(1);
+            }
+
+            const args = parts.slice(1);
+
+            if (commands.has(cmdName)) {
+              const cmd = commands.get(cmdName);
+
+              // choose real services if available, otherwise fallback
+              const UsersService = (typeof global.UsersService !== 'undefined') ? global.UsersService : global._fallbackUsers;
+              const ThreadsService = (typeof global.ThreadsService !== 'undefined') ? global.ThreadsService : global._fallbackThreads;
+              const CurrenciesService = (typeof global.CurrenciesService !== 'undefined') ? global.CurrenciesService : global._fallbackCurrencies;
+
+              try {
+                await cmd.run({
+                  event,
+                  api,
+                  config,
+                  args,
+                  commands,
+                  language: global.language,
+                  Users: UsersService,
+                  Threads: ThreadsService,
+                  Currencies: CurrenciesService
+                });
+              } catch (e) {
+                console.error('Command execution failed:', e && (e.stack || e.message));
+              }
+            }
+          }
+
+          // Seen / read marking (best-effort)
+          try {
+            if (threadID) {
+              if (typeof api.markAsRead === 'function') api.markAsRead(threadID, ()=>{});
+              else if (typeof api.setMessageRead === 'function') api.setMessageRead(threadID, ()=>{});
+              else if (typeof api.markSeen === 'function') api.markSeen(threadID, ()=>{});
+            }
+          } catch(e) {
+            console.warn('Mark-as-read failed:', e && e.message);
+          }
+        }
+      } catch (errCmd) {
+        console.error('Command handler error:', errCmd && (errCmd.stack || errCmd.message));
+      }
+
+    }); // end api.listen callback
+  } // end if (api.listen)
+
+}); // close login callback
+
+// Graceful shutdown
+process.on('SIGINT', () => {
+  console.log('Received SIGINT. Exiting...');
+  process.exit(0);
+});
+process.on('SIGTERM', () => {
+  console.log('Received SIGTERM. Exiting...');
+  process.exit(0);
+});
