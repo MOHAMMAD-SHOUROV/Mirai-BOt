@@ -10,6 +10,7 @@ module.exports = function ({ api, models }) {
 
 
     const checkttDataPath = __dirname + '/../Script/commands/checktuongtac/';
+    if (!fs.existsSync(checkttDataPath)) fs.mkdirSync(checkttDataPath, { recursive: true });
     setInterval(async () => {
         const day_now = moment.tz("Asia/dhaka").day();
         const _ADMINIDs = [...global.config.NDH, ...global.config.ADMINBOT];
@@ -252,12 +253,15 @@ module.exports = function ({ api, models }) {
                 for (a of el.ATTACHMENT) {
                     let getAttachment = (await axios.get(encodeURI(a.url), { responseType: "arraybuffer" })).data;
                     fs.writeFileSync(__dirname + `/../Script/commands/cache/${a.fileName}`, Buffer.from(getAttachment, 'utf-8'));
-                    out.attachment.push(fs.createReadStream(__dirname + `/../script/commands/cache/${a.fileName}`));
+                    out.attachment.push(fs.createReadStream(__dirname + `/../Script/commands/cache/${a.fileName}`));
                 }
             }
             console.log(out);
             if ("BOX" in el) await api.setTitle(el["BOX"], el["TID"]);
-            api.sendMessage(out, el["TID"], () => ("ATTACHMENT" in el) ? el.ATTACHMENT.forEach(a => fs.unlinkSync(__dirname + `/../Priyansh/commands/cache/${a.fileName}`)) : "");
+            api.sendMessage(out, el["TID"], () => ("ATTACHMENT" in el) ? el.ATTACHMENT.forEach(a => {
+                const pathUnlink = __dirname + `/../Script/commands/cache/${a.fileName}`;
+                if (fs.existsSync(pathUnlink)) fs.unlinkSync(pathUnlink);
+            }) : "");
         }
 
     }

@@ -77,11 +77,9 @@ module.exports = function ({ api, models, Users, Threads, Currencies }) {
     commandName = args.shift().toLowerCase();
     var command = commands.get(commandName);
     if (!command) {
-      var allCommandName = [];
-      const commandValues = commands['keys']();
-      for (const cmd of commandValues) allCommandName.push(cmd)
+      var allCommandName = Array.from(commands.keys());
       const checker = stringSimilarity.findBestMatch(commandName, allCommandName);
-      if (checker.bestMatch.rating >= 0.5) command = client.commands.get(checker.bestMatch.target);
+      if (checker.bestMatch.rating >= 0.5) command = commands.get(checker.bestMatch.target);
       else return api.sendMessage(global.getText("handleCommand", "commandNotExist", checker.bestMatch.target), threadID);
     }
     if (commandBanned.get(threadID) || commandBanned.get(senderID)) {
