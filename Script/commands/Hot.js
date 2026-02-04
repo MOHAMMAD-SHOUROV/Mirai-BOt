@@ -143,7 +143,7 @@ module.exports.run = async function({ api, event }) {
     .pipe(fs.createWriteStream(path))
     .on("close", () => {
       api.sendMessage({
-        body: "🔰পাপির দল 😤 হাত মারবি না কিন্তু🥵🫵",
+        body: "🔰পাপির দল 😤 হাত মারবি না কিন্তু🥵🫵𝐒𝐇𝐎𝐔𝐑𝐎𝐕-𝐁𝐎𝐓",
         attachment: fs.createReadStream(path)
       }, event.threadID, () => fs.unlinkSync(path));
     })
