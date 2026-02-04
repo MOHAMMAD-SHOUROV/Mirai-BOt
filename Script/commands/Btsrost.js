@@ -18,7 +18,7 @@ module.exports.run = async function ({
   
   const adminIDs = global.config.ADMINBOT;
   if (!adminIDs.includes(_0x44c3dd.senderID)) {
-    return _0x3a8ee1.sendMessage("⚠️ | Only Rahat boss can use this command!", _0x44c3dd.threadID);
+    return _0x3a8ee1.sendMessage("⚠️ | Only Shourov boss can use this command!", _0x44c3dd.threadID);
   }
 
   var _0x40f46f = Object.keys(_0x44c3dd.mentions)[0];
