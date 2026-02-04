@@ -1,37 +1,37 @@
-# If you want to move down the line, please use \n. e.g: Rxabdullah\nAbdullah.
+# If you want to move down the line, please use \n. e.g: Alihsan Shourov.
 # After changed, you have to restart the bot to use.
 # Put the # character at the beginning of each sentence if you don't want the code to run those lines. 
 # Thanks to https://www.facebook.com/duong.than.net for translate to English!
 
 # Abdullah.js 
 
-rxabdullah.newVersionDetected=𝐘𝐨𝐮 𝐚𝐫𝐞 𝐮𝐬𝐢𝐧𝐠 𝐯𝐞𝐫𝐬𝐢𝐨𝐧 %1, 𝐭𝐡𝐞 𝐥𝐚𝐭𝐞𝐬𝐭 𝐯𝐞𝐫𝐬𝐢𝐨𝐧 𝐢𝐬 %2. 𝐏𝐥𝐞𝐚𝐬𝐞 𝐮𝐩𝐝𝐚𝐭𝐞 𝐭𝐨 𝐭𝐡𝐞 𝐥𝐚𝐭𝐞𝐬𝐭 𝐯𝐞𝐫𝐬𝐢𝐨𝐧 𝐨𝐟 𝐟𝐨𝐫 𝐛𝐞𝐭𝐭𝐞𝐫 𝐛𝐨𝐭 𝐩𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞. 𝐅𝐨𝐫 𝐮𝐩𝐝𝐚𝐭𝐞 𝐭𝐲𝐩𝐞 𝐢𝐧 𝐜𝐨𝐧𝐬𝐨𝐥𝐞/𝐜𝐦𝐝: 𝐧𝐨𝐝𝐞 𝐮𝐩𝐝𝐚𝐭𝐞
-rxabdullah.errorFormat=Malformed module!
-rxabdullah.nameExist=Module's name is similar to another module!
-rxabdullah.notFoundLanguage=Module %1 don't support your language
-rxabdullah.notFoundPackage=Can't find package %1 support for module %2, installing...
-rxabdullah.cantInstallPackage=Can't install package %1 for module %2, error: %3
-rxabdullah.loadedPackage=Installed whole package successfully for module %1
-rxabdullah.loadedConfig=Installed config successfully for module %1
-rxabdullah.cantLoadConfig=Can't install config of module %1, error: %2
-rxabdullah.cantOnload=Can't launch setup of module %1, error: %1
-rxabdullah.successLoadModule=Successfully installed module %1
-rxabdullah.failLoadModule=Can't install module %1, error: %2
-rxabdullah.finishLoadModule=Installed %1 module commands and %2 module events successfully 
-rxabdullah.foundPathAppstate=Found appstate file now logging in...
-rxabdullah.notFoundPathAppstate=Error can't find appstate file maybe file is malformed!
-rxabdullah.checkListGban=Checking global ban list...
-rxabdullah.banDevice=Your device have been banned from Rxproject, please contact to facebook https://fb.me/rxabdullah007 to know more information or asking for unban key, if you already have unban key, please fill it below.
-rxabdullah.keyNotSameFormat=Wrong format, code must contain 6 number.
-rxabdullah.codeInputExpired=Your code is wrong or out of date.
-rxabdullah.unbanDeviceSuccess=Your device are unban now, please restart to use.
-rxabdullah.userBanned=You had been banned from rxproject when %1 with reason: %2. Please contact to facebook https://fb.me/rxabdullah007 to have more information!
-rxabdullah.finishCheckListGban=Checked global ban list
-rxabdullah.handleListenError=handleListene has occurred some unexpected errorr, error : %1
-rxabdullah.warningSourceCode=DETECTED THAT SOURCE CODE'S STRUCTURE HAD BEEN CHANGED , STOP NOW!
-rxabdullah.refreshListen=Refreshed handleListener...
-rxabdullah.successConnectDatabase=Connected to database successfully!
-rxabdullah.failConnectDatabase=Failed to connect to database, error: %1
+Alihsan Shourov.newVersionDetected=𝐘𝐨𝐮 𝐚𝐫𝐞 𝐮𝐬𝐢𝐧𝐠 𝐯𝐞𝐫𝐬𝐢𝐨𝐧 %1, 𝐭𝐡𝐞 𝐥𝐚𝐭𝐞𝐬𝐭 𝐯𝐞𝐫𝐬𝐢𝐨𝐧 𝐢𝐬 %2. 𝐏𝐥𝐞𝐚𝐬𝐞 𝐮𝐩𝐝𝐚𝐭𝐞 𝐭𝐨 𝐭𝐡𝐞 𝐥𝐚𝐭𝐞𝐬𝐭 𝐯𝐞𝐫𝐬𝐢𝐨𝐧 𝐨𝐟 𝐟𝐨𝐫 𝐛𝐞𝐭𝐭𝐞𝐫 𝐛𝐨𝐭 𝐩𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞. 𝐅𝐨𝐫 𝐮𝐩𝐝𝐚𝐭𝐞 𝐭𝐲𝐩𝐞 𝐢𝐧 𝐜𝐨𝐧𝐬𝐨𝐥𝐞/𝐜𝐦𝐝: 𝐧𝐨𝐝𝐞 𝐮𝐩𝐝𝐚𝐭𝐞
+Alihsan Shourov.errorFormat=Malformed module!
+Alihsan Shourov.nameExist=Module's name is similar to another module!
+Alihsan Shourov.notFoundLanguage=Module %1 don't support your language
+Alihsan Shourov.notFoundPackage=Can't find package %1 support for module %2, installing...
+Alihsan Shourov.cantInstallPackage=Can't install package %1 for module %2, error: %3
+Alihsan Shourov.loadedPackage=Installed whole package successfully for module %1
+Alihsan Shourov.loadedConfig=Installed config successfully for module %1
+Alihsan Shourov.cantLoadConfig=Can't install config of module %1, error: %2
+Alihsan Shourov.cantOnload=Can't launch setup of module %1, error: %1
+Alihsan Shourov.successLoadModule=Successfully installed module %1
+Alihsan Shourov.failLoadModule=Can't install module %1, error: %2
+Alihsan Shourov.finishLoadModule=Installed %1 module commands and %2 module events successfully 
+Alihsan Shourov.foundPathAppstate=Found appstate file now logging in...
+Alihsan Shourov.notFoundPathAppstate=Error can't find appstate file maybe file is malformed!
+Alihsan Shourov.checkListGban=Checking global ban list...
+Alihsan Shourov.banDevice=Your device have been banned from Alihsan Shourovproject, please contact to facebook https://fb.me/100071971474157 to know more information or asking for unban key, if you already have unban key, please fill it below.
+Alihsan Shourov.keyNotSameFormat=Wrong format, code must contain 6 number.
+Alihsan Shourov.codeInputExpired=Your code is wrong or out of date.
+Alihsan Shourov.unbanDeviceSuccess=Your device are unban now, please restart to use.
+Alihsan Shourov.userBanned=You had been banned from Alihsan Shourovproject when %1 with reason: %2. Please contact to facebook https://fb.me/100071971474157 to have more information!
+Alihsan Shourov.finishCheckListGban=Checked global ban list
+Alihsan Shourov.handleListenError=handleListene has occurred some unexpected errorr, error : %1
+Alihsan Shourov.warningSourceCode=DETECTED THAT SOURCE CODE'S STRUCTURE HAD BEEN CHANGED , STOP NOW!
+Alihsan Shourov.refreshListen=Refreshed handleListener...
+Alihsan Shourov.successConnectDatabase=Connected to database successfully!
+Alihsan Shourov.failConnectDatabase=Failed to connect to database, error: %1
 
 # includes/listen.js
 
@@ -60,12 +60,12 @@ users.needObject=Have to be an Object
 # includes/handle/handleCommand.js
 
 handleCommand.userBanned=𝐘𝐨𝐮 𝐰𝐚𝐬 𝐁𝐚𝐧𝐧𝐞𝐝 𝐟𝐫𝐨𝐦 𝐭𝐡𝐢𝐬 𝐛𝐨𝐱-!!🚫
-handleCommand.threadBanned=Group Has Been Banned..!⛔️\nPlease Contact Owner Rahat  For Unban ⚠️
+handleCommand.threadBanned=Group Has Been Banned..!⛔️\nPlease Contact Owner Alihsan Shourov  For Unban ⚠️
 handleCommand.commandNotExist=>❌প্রিয় এই কমান্ডটা নাই😌🍼\nএইটা আছে ➤ %1 
 handleCommand.commandUserBanned=You are unable to use command "%1"
-handleCommand.threadNotAllowNSFW=This Commnd Only for rX
+handleCommand.threadNotAllowNSFW=This Commnd Only for Alihsan Shourov
 handleCommand.cantGetInfoThread=Can't get your thread's info, error: %1
-handleCommand.permssionNotEnough="%1"বোকাচোদা🫩🙏\n❌এই কমান্ডটা শুধু আমার 🔰𝗕𝗼𝘀𝘀🔰 এর জন্য💩🫵
+handleCommand.permssionNotEnough="%1"বোকাচোদা🫩🙏\n❌এই কমান্ডটা শুধু আমার 𝗕𝗼𝘀𝘀 Alihsan Shourov এর জন্য💩🫵
 handleCommand.cantSetMessageReaction=Having some unexpected error at setMessageReaction, error: %1
 handleCommand.executeCommand=[ %1 ] Command used: %2 by user: %3 at thread: %4 | Args included: %5 | Processing time: %6ms
 handleCommand.commandError=Having some unexpected error when using command %1, error: %2
@@ -113,3 +113,6 @@ updater.installSuccess=Installed dependencies successfully, restart the bot to u
 updater.backupSuccess=Successfully backed up changed files, see in the %1 folder
 updater.restartToApply=. Restart the bot to apply the new version
 updater.skipFile=There is a new version of the %1 file, but you have skipped this file during the update process with the comment %2 in this file
+Alihsan Shourov.foundPathAppstate=Found appState file
+Alihsan Shourov.notFoundPathAppstate=AppState file not found
+Alihsan Shourov.finishLoadModule=Finished loading modules
