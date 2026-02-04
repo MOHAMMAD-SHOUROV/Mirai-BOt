@@ -74,7 +74,7 @@ module.exports.runEvent = async function({ event, api }) {
       if (fs.existsSync(pathImg)) {
         await api.changeGroupImage(fs.createReadStream(pathImg), threadID);
       }
-      await api.sendMessage("⚠️ গ্রুপ ছবির পরিবর্তন অনুমোদিত নয়!\n🩷 This group is protected by rX Chat bot", threadID);
+      await api.sendMessage("⚠️ গ্রুপ ছবির পরিবর্তন অনুমোদিত নয়!\n🩷 This group is protected by SHOUROV-BOT", threadID);
     }
 
   } catch (err) {
