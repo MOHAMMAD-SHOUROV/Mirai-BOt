@@ -1,0 +1,20 @@
+{
+  "deviceId": "98d97db28ecb527b7a06b606c79620fb",
+  "clientId": "7d09cb430543d904019a9d6562e218c0",
+  "machineId": "8bfb200a-2e8a-4f0c-0a41-1609e141d5c2",
+  "sessionId": "1770225586667-4dbeae9ca67fae97",
+  "createdAt": 1770225586666,
+  "lastUsed": 1770225586689,
+  "browser": {
+    "name": "Chrome",
+    "version": "123.5.22"
+  },
+  "screen": {
+    "width": 2560,
+    "height": 1440,
+    "colorDepth": 24
+  },
+  "timezone": "UTC",
+  "language": "en-US",
+  "platform": "MacIntel"
+}
