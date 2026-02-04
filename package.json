@@ -1,14 +1,14 @@
 {
-  "name": "RX CHAT BOT",
+  "name": "SHOUROV-BOT",
   "version": "10.1.1",
-  "description": "made by rX Abdullah",
-  "main": "Rahat.js",
+  "description": "made by Alihsan Shourov",
+  "main": "Shourov.js",
   "engines": {
       "node": "20.x",
       "npm": "10.0.0"
   },
   "scripts": {
-      "start": "node Xrahat.js",
+      "start": "node ShourovSm.js",
       "login": "node login",
       "test": "node --trace-warnings --use_strict --async-stack-traces mirai"
   },
@@ -19,15 +19,15 @@
   "keywords": [
       "bot",
       "facebook",
-      "rxproject",
+      "shourovproject",
       "messenger",
       "javasvript",
-      "abdullah",
-      "abdullahs",
-      "rxmaria",
-      "rx chat bot"
+      "Alihsan Shourov",
+      "SHOUROV-BOT",
+      "SHOUROV-BOT",
+      "SHOUROV-BOT"
   ],
-  "author": "rX Abdullah",
+  "author": "Alihsan Shourov",
   "license": "GPL-3.0",
   "bugs": {
       "url": "https://github.com/rxmaria761/rX-Chat-bot/issues"
