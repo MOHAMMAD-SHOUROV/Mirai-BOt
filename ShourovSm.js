@@ -20,16 +20,77 @@ app.listen(PORT, '0.0.0.0', () => {
 const FBSTATE_PATH = path.join(__dirname, 'Shourovstate.json');
 const FCA_CONFIG_PATH = path.join(__dirname, 'ShourovFca.json');
 
+function detectAndParseAppState(raw) {
+    raw = raw.trim();
+    if (!raw) return null;
+    
+    // Check if it's a JSON array (standard appState)
+    if (raw.startsWith('[') && raw.endsWith(']')) {
+        try {
+            return JSON.parse(raw);
+        } catch (e) {
+            log.err('Failed to parse JSON array appState');
+        }
+    }
+    
+    // Check if it's Netscape format (starts with # Netscape HTTP Cookie File)
+    if (raw.includes('Netscape HTTP Cookie File') || raw.split('\n').some(line => line.includes('\t'))) {
+        try {
+            const lines = raw.split('\n');
+            const jsonCookies = [];
+            lines.forEach(line => {
+                if (!line.trim() || line.startsWith('#')) return;
+                const parts = line.split('\t');
+                if (parts.length >= 7) {
+                    jsonCookies.push({
+                        key: parts[5],
+                        value: parts[6].trim(),
+                        domain: parts[0],
+                        path: parts[2],
+                        hostOnly: parts[3] === 'FALSE',
+                        creation: new Date().toISOString(),
+                        lastAccessed: new Date().toISOString()
+                    });
+                }
+            });
+            return jsonCookies.length > 0 ? jsonCookies : null;
+        } catch (e) {
+            log.err('Failed to parse Netscape appState');
+        }
+    }
+    
+    // Try raw cookie string (key1=val1; key2=val2)
+    if (raw.includes('=') && raw.includes(';')) {
+        try {
+            return raw.split(';').map(pair => {
+                const [key, ...val] = pair.trim().split('=');
+                return {
+                    key: key,
+                    value: val.join('='),
+                    domain: 'facebook.com',
+                    path: '/',
+                    hostOnly: false,
+                    creation: new Date().toISOString(),
+                    lastAccessed: new Date().toISOString()
+                };
+            });
+        } catch (e) {
+            log.err('Failed to parse cookie string appState');
+        }
+    }
+    
+    return null;
+}
+
 let appState = null;
 if (fs.existsSync(FBSTATE_PATH)) {
-    try {
-        const rawState = fs.readFileSync(FBSTATE_PATH, 'utf8');
-        if (rawState.trim()) {
-            appState = JSON.parse(rawState);
-        }
-    } catch (e) {
-        log.err('Failed to parse Shourovstate.json');
+    const rawState = fs.readFileSync(FBSTATE_PATH, 'utf8');
+    appState = detectAndParseAppState(rawState);
+    if (!appState) {
+        log.err('Shourovstate.json found but format is unrecognized or invalid.');
     }
+} else {
+    log.warn('Shourovstate.json not found. Please provide it for cookie-based login.');
 }
 
 let fcaConfig = { optionsFca: {} };
@@ -45,8 +106,12 @@ const loginData = { appState };
 
 login(loginData, (err, api) => {
     if (err) {
-        log.err('BOT LOGIN FAILED');
-        console.error(err);
+        if (err.code === 'CHECKPOINT_REQUIRED') {
+            log.err('LOGIN FAILED: Account requires checkpoint verification. Please login in a browser first.');
+        } else {
+            log.err('BOT LOGIN FAILED');
+            console.error(err);
+        }
         return;
     }
 

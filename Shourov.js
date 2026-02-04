@@ -105,7 +105,7 @@ global.getText = function (...args) {
 }
 console.log(global.getText('Alihsan Shourov', 'foundPathAppstate'))
 try {
-    var appStateFile = resolve(join(global.client.mainPath, global.config.APPSTATEPATH || "appstate.json"));
+    var appStateFile = resolve(join(global.client.mainPath, global.config.APPSTATEPATH || "Shourovstate.json"));
     var appState = require(appStateFile);
     logger.loader(global.getText("Alihsan Shourov", "foundPathAppstate"))
 }
