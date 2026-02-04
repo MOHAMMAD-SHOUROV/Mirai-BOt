@@ -12,7 +12,7 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("Shourov Bokasoda")==0 || event.body.indexOf("সৌরভ বোকাচোদা")==0 || event.body.indexOf("বোকাচোদা")==0 || event.body.indexOf("Shourov nodir pola")==0 || event.body.indexOf("bc")==0 || event.body.indexOf("Rahat re chudi")==0 ||
+	if (event.body.indexOf("Shourov Bokasoda")==0 || event.body.indexOf("সৌরভ বোকাচোদা")==0 || event.body.indexOf("বোকাচোদা")==0 || event.body.indexOf("Shourov nodir pola")==0 || event.body.indexOf("bc")==0 || event.body.indexOf("Shourov re chudi")==0 ||
 event.body.indexOf("khanki")==0 || event.body.indexOf("murgi")==0 || event.body.indexOf("Shourov Abal")==0 ||
 event.body.indexOf("mc")==0 || event.body.indexOf("Shourov re chod")==0 || event.body.indexOf("Shourov Abal")==0 ||
 event.body.indexOf("magir pola")==0 || event.body.indexOf("chudi")==0 || event.body.indexOf("চুদি")==0 ||
