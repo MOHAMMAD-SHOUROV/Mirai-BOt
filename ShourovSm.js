@@ -3,7 +3,7 @@
 const fs = require('fs-extra');
 const path = require('path');
 const express = require('express');
-const { login } = require('shourov-fca');
+const login = require('shourov-fca');
 const log = require('./utils/log');
 
 const app = express();
