@@ -3,36 +3,11 @@
 const fs = require('fs-extra');
 const path = require('path');
 const express = require('express');
+const { login } = require('shourov-fca');
 const log = require('./utils/log');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const { login } = require("shourov-fca");
-const fs = require("fs");
-
-const appState = JSON.parse(
-  fs.readFileSync("Shourovstate.json", "utf8")
-);
-
-login(
-  {
-    appState,
-    forceLogin: true,
-    listenEvents: true,
-    selfListen: false,
-    logLevel: "silent"
-  },
-  (err, api) => {
-    if (err) {
-      console.error("❌ LOGIN FAILED:", err);
-      return;
-    }
-
-    console.log("✅ BOT LOGIN SUCCESS");
-
-    // এখানে bot logic চালু করো
-  }
-);
 
 /* ================= WEB SERVER ================= */
 
@@ -64,7 +39,7 @@ function detectAndParseAppState(raw) {
     }
   }
 
-  // Netscape
+  // Netscape format
   if (raw.includes('\t')) {
     const cookies = [];
     raw.split('\n').forEach(line => {
@@ -107,7 +82,7 @@ function detectAndParseAppState(raw) {
 /* ================= LOAD COOKIE ================= */
 
 if (!fs.existsSync(FBSTATE_PATH)) {
-  log.err('Shourovstate.json not found. Cookie login required.');
+  log.err('Shourovstate.json not found');
   process.exit(1);
 }
 
@@ -119,31 +94,45 @@ if (!Array.isArray(appState) || !appState.find(c => c.key === 'c_user')) {
   process.exit(1);
 }
 
-log.success('Cookie loaded from Shourovstate.json');
+log.success('Cookie loaded successfully');
 
-/* ================= FCA CONFIG ================= */
+/* ================= FCA OPTIONS ================= */
 
-let fcaOptions = {};
+let fcaOptions = {
+  listenEvents: true,
+  selfListen: false,
+  logLevel: 'silent'
+};
+
 if (fs.existsSync(FCA_CONFIG_PATH)) {
   try {
-    fcaOptions = JSON.parse(fs.readFileSync(FCA_CONFIG_PATH, 'utf8')).optionsFca || {};
+    const cfg = JSON.parse(fs.readFileSync(FCA_CONFIG_PATH, 'utf8'));
+    if (cfg.optionsFca) fcaOptions = { ...fcaOptions, ...cfg.optionsFca };
   } catch {
     log.warn('Invalid ShourovFca.json, using default options');
   }
 }
 
+/* ================= LOGIN ================= */
 
-    // Save refreshed cookie (optional but safe)
+login(
+  { appState, ...fcaOptions },
+  (err, api) => {
+    if (err) {
+      log.err('LOGIN FAILED');
+      console.error(err);
+      return;
+    }
+
+    log.success('BOT LOGIN SUCCESS');
+
+    // Save refreshed cookie
     try {
-      fs.writeFileSync(
-        FBSTATE_PATH,
-        JSON.stringify(api.getAppState(), null, 2)
-      );
+      fs.writeFileSync(FBSTATE_PATH, JSON.stringify(api.getAppState(), null, 2));
       log.success('Cookie refreshed & saved');
     } catch {}
 
-    /* ================= START BOT ================= */
-
-    require('./Shourov.js')(api);
+    // Start bot
+    require('./Shourov.js');
   }
 );
