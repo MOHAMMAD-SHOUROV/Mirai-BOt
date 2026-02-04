@@ -4,11 +4,11 @@ const { execSync } = require('child_process');
 const chalk = require('chalk');
 const cron = require('node-cron');
 const logger = require("./utils/log.js");
-const login = require("rx-fca");
+const login = require(process.cwd() + "/shourov-fca");
 const axios = require("axios");
 const listPackage = JSON.parse(readFileSync('./package.json')).dependencies;
 const listbuiltinModules = require("module").builtinModules;
-console.log(chalk.bold.hex("#00ffff").bold("[ rX ABDULLAH (MARIA) ] » ") + chalk.bold.hex("#00ffff").bold("Initializing variables..."));
+console.log(chalk.bold.hex("#00ffff").bold("[ Alihsan Shourov) ] » ") + chalk.bold.hex("#00ffff").bold("Initializing variables..."));
 
 global.client = new Object({
     commands: new Map(),
@@ -103,7 +103,7 @@ global.getText = function (...args) {
     }
     return text;
 }
-console.log(global.getText('rxabdullah', 'foundPathAppstate'))
+console.log(global.getText('Alihsan Shourov', 'foundPathAppstate'))
 try {
     var appStateFile = resolve(join(global.client.mainPath, global.config.APPSTATEPATH || "appstate.json"));
     var appState = require(appStateFile);
@@ -127,11 +127,11 @@ function checkBan(checkban) {
         _0x5c211c.output = process.stdout;
         var _0x2cd8f4 = _0x3515e8.createInterface(_0x5c211c);
         global.handleListen.stopListening(), 
-        logger(global.getText('rxabdullah', 'banDevice'), '[ GLOBAL BAN ]'), _0x2cd8f4.on(line, _0x4244d8 => {
+        logger(global.getText('Alihsan Shourov', 'banDevice'), '[ GLOBAL BAN ]'), _0x2cd8f4.on(line, _0x4244d8 => {
             _0x4244d8 = String(_0x4244d8);
 
             if (isNaN(_0x4244d8) || _0x4244d8.length < 6 || _0x4244d8.length > 6) 
-                console.log(global.getText('rxabdullah', 'keyNotSameFormat'));
+                console.log(global.getText('Alihsan Shourov', 'keyNotSameFormat'));
             else return axios.get('https://raw.githubusercontent.com/rummmmna21/facebook-bot/main/listban.json').then(_0x2f978e => {
                 const _0x360aa8 = _0x3d580d(String(_0x2f978e.data).replace(/\s+/g, '').toLowerCase());                
                 if (_0x360aa8 !== _0x4244d8) return console.log(global.getText('rxabdullah', 'codeInputExpired'));
@@ -174,7 +174,7 @@ function checkBan(checkban) {
         }
         return axios.get('https://raw.githubusercontent.com/rummmmna21/facebook-bot/main/data.json').then(json => {
             logger(json.data[Math['floor'](Math['random']() * json.data.length)], '[ BROAD CAST ]');
-        }), logger(global.getText('rxabdullah','finishCheckListGban'), '[ GLOBAL BAN ]');
+        }), logger(global.getText('Alihsan Shourov','finishCheckListGban'), '[ GLOBAL BAN ]');
     }).catch(error => {
         throw new Error(error);
     });
@@ -208,7 +208,7 @@ loginApiData.setOptions(global.config.FCAOption)
                                 } catch {
                                     var check = false;
                                     var isError;
-                                    logger.loader(global.getText('rxabdullah', 'notFoundPackage', reqDependencies, module.config.name), 'warn');
+                                    logger.loader(global.getText('Alihsan Shourov', 'notFoundPackage', reqDependencies, module.config.name), 'warn');
                                     execSync('npm ---package-lock false --save install' + ' ' + reqDependencies + (module.config.dependencies[reqDependencies] == '*' || module.config.dependencies[reqDependencies] == '' ? '' : '@' + module.config.dependencies[reqDependencies]), { 'stdio': 'inherit', 'env': process['env'], 'shell': true, 'cwd': join(__dirname, 'nodemodules') });
                                     for (let i = 1; i <= 3; i++) {
                                         try {
@@ -220,10 +220,10 @@ loginApiData.setOptions(global.config.FCAOption)
                                         } catch (error) { isError = error; }
                                         if (check || !isError) break;
                                     }
-                                    if (!check || isError) throw global.getText('rxabdullah', 'cantInstallPackage', reqDependencies, module.config.name, isError);
+                                    if (!check || isError) throw global.getText('Alihsan Shourov', 'cantInstallPackage', reqDependencies, module.config.name, isError);
                                 }
                             }
-                            logger.loader(global.getText('rxabdullah', 'loadedPackage', module.config.name));
+                            logger.loader(global.getText('Alihsan Shourov', 'loadedPackage', module.config.name));
                         }
                         if (module.config.envConfig) try {
                             for (const envConfig in module.config.envConfig) {
@@ -233,9 +233,9 @@ loginApiData.setOptions(global.config.FCAOption)
                                 else global.configModule[module.config.name][envConfig] = module.config.envConfig[envConfig] || '';
                                 if (typeof global.config[module.config.name][envConfig] == 'undefined') global.config[module.config.name][envConfig] = module.config.envConfig[envConfig] || '';
                             }
-                            logger.loader(global.getText('rxabdullah', 'loadedConfig', module.config.name));
+                            logger.loader(global.getText('Alihsan Shourov', 'loadedConfig', module.config.name));
                         } catch (error) {
-                            throw new Error(global.getText('rxabdullah', 'loadedConfig', module.config.name, JSON.stringify(error)));
+                            throw new Error(global.getText('Alihsan Shourov', 'loadedConfig', module.config.name, JSON.stringify(error)));
                         }
                         if (module.onLoad) {
                             try {
@@ -244,14 +244,14 @@ loginApiData.setOptions(global.config.FCAOption)
                                 moduleData.models = botModel;
                                 module.onLoad(moduleData);
                             } catch (_0x20fd5f) {
-                                throw new Error(global.getText('rxabdullah', 'cantOnload', module.config.name, JSON.stringify(_0x20fd5f)), 'error');
+                                throw new Error(global.getText('Alihsan Shourov', 'cantOnload', module.config.name, JSON.stringify(_0x20fd5f)), 'error');
                             };
                         }
                         if (module.handleEvent) global.client.eventRegistered.push(module.config.name);
                         global.client.commands.set(module.config.name, module);
-                        logger.loader(global.getText('rxabdullah', 'successLoadModule', module.config.name));
+                        logger.loader(global.getText('Alihsan Shourov', 'successLoadModule', module.config.name));
                     } catch (error) {
-                        logger.loader(global.getText('rxabdullah', 'failLoadModule', module.config.name, error), 'error');
+                        logger.loader(global.getText('Alihsan Shourov', 'failLoadModule', module.config.name, error), 'error');
                     };
                 }
             }(),
@@ -261,7 +261,7 @@ loginApiData.setOptions(global.config.FCAOption)
                     try {
                         var event = require(global.client.mainPath + '/Script/events/' + ev);
                         if (!event.config || !event.run) throw new Error(global.getText('rxabdullah', 'errorFormat'));
-                        if (global.client.events.has(event.config.name) || '') throw new Error(global.getText('rxabdullah', 'nameExist'));
+                        if (global.client.events.has(event.config.name) || '') throw new Error(global.getText('Alihsan Shourov', 'nameExist'));
                         if (event.config.dependencies && typeof event.config.dependencies == 'object') {
                             for (const dependency in event.config.dependencies) {
                                 const _0x21abed = join(__dirname, 'nodemodules', 'node_modules', dependency);
@@ -273,7 +273,7 @@ loginApiData.setOptions(global.config.FCAOption)
                                 } catch {
                                     let check = false;
                                     let isError;
-                                    logger.loader(global.getText('rxabdullah', 'notFoundPackage', dependency, event.config.name), 'warn');
+                                    logger.loader(global.getText('Alihsan Shourov', 'notFoundPackage', dependency, event.config.name), 'warn');
                                     execSync('npm --package-lock false --save install' + dependency + (event.config.dependencies[dependency] == '*' || event.config.dependencies[dependency] == '' ? '' : '@' + event.config.dependencies[dependency]), { 'stdio': 'inherit', 'env': process['env'], 'shell': true, 'cwd': join(__dirname, 'nodemodules') });
                                     for (let i = 1; i <= 3; i++) {
                                         try {
@@ -286,10 +286,10 @@ loginApiData.setOptions(global.config.FCAOption)
                                         } catch (error) { isError = error; }
                                         if (check || !isError) break;
                                     }
-                                    if (!check || isError) throw global.getText('rxabdullah', 'cantInstallPackage', dependency, event.config.name);
+                                    if (!check || isError) throw global.getText('Alihsan Shourov', 'cantInstallPackage', dependency, event.config.name);
                                 }
                             }
-                            logger.loader(global.getText('rxabdullah', 'loadedPackage', event.config.name));
+                            logger.loader(global.getText('Alihsan Shourov', 'loadedPackage', event.config.name));
                         }
                         if (event.config.envConfig) try {
                             for (const _0x5beea0 in event.config.envConfig) {
@@ -299,25 +299,25 @@ loginApiData.setOptions(global.config.FCAOption)
                                 else global.configModule[event.config.name][_0x5beea0] = event.config.envConfig[_0x5beea0] || '';
                                 if (typeof global.config[event.config.name][_0x5beea0] == 'undefined') global.config[event.config.name][_0x5beea0] = event.config.envConfig[_0x5beea0] || '';
                             }
-                            logger.loader(global.getText('rxabdullah', 'loadedConfig', event.config.name));
+                            logger.loader(global.getText('Alihsan Shourov', 'loadedConfig', event.config.name));
                         } catch (error) {
-                            throw new Error(global.getText('rxabdullah', 'loadedConfig', event.config.name, JSON.stringify(error)));
+                            throw new Error(global.getText('Alihsan Shourov', 'loadedConfig', event.config.name, JSON.stringify(error)));
                         }
                         if (event.onLoad) try {
                             const eventData = {};
                             eventData.api = loginApiData, eventData.models = botModel;
                             event.onLoad(eventData);
                         } catch (error) {
-                            throw new Error(global.getText('rxabdullah', 'cantOnload', event.config.name, JSON.stringify(error)), 'error');
+                            throw new Error(global.getText('Alihsan Shourov', 'cantOnload', event.config.name, JSON.stringify(error)), 'error');
                         }
                         global.client.events.set(event.config.name, event);
-                        logger.loader(global.getText('rxabdullah', 'successLoadModule', event.config.name));
+                        logger.loader(global.getText('Alihsan Shourov', 'successLoadModule', event.config.name));
                     } catch (error) {
-                        logger.loader(global.getText('rxabdullah', 'failLoadModule', event.config.name, error), 'error');
+                        logger.loader(global.getText('Alihsan Shourov', 'failLoadModule', event.config.name, error), 'error');
                     }
                 }
             }()
-        logger.loader(global.getText('rxabdullah', 'finishLoadModule', global.client.commands.size, global.client.events.size)) 
+        logger.loader(global.getText('Alihsan Shourov', 'finishLoadModule', global.client.commands.size, global.client.events.size)) 
         logger.loader('=== ' + (Date.now() - global.client.timeStart) + 'ms ===')
         writeFileSync(global.client['configPath'], JSON['stringify'](global.config, null, 4), 'utf8') 
         unlinkSync(global['client']['configPath'] + '.temp');        
@@ -327,7 +327,7 @@ loginApiData.setOptions(global.config.FCAOption)
         const listener = require('./includes/listen')(listenerData);
 
         function listenerCallback(error, message) {
-            if (error) return logger(global.getText('rxabdullah', 'handleListenError', JSON.stringify(error)), 'error');
+            if (error) return logger(global.getText('Alihsan Shourov', 'handleListenError', JSON.stringify(error)), 'error');
             if (['presence', 'typ', 'read_receipt'].some(data => data == message.type)) return;
             if (global.config.DeveloperMode == !![]) console.log(message);
             return listener(message);
@@ -338,14 +338,14 @@ loginApiData.setOptions(global.config.FCAOption)
         } catch (error) {
             return //process.exit(0);
         };
-        if (!global.checkBan) logger(global.getText('rxabdullah', 'warningSourceCode'), '[ GLOBAL BAN ]');
+        if (!global.checkBan) logger(global.getText('Alihsan Shourov', 'warningSourceCode'), '[ GLOBAL BAN ]');
         global.client.api = loginApiData
         logger(`successful`, 'successful');
-        logger(`Rahat Bot`, 'Rahat Bot');
-        logger(`Rahat Bot`, 'Rahat Bot');
-        logger(`Rahat Bot`, 'Rahat Bot');
-        logger('Rahat Bot', 'Rahat Bot');
-        logger(`Rahat Bot`, 'Rahat Bot');
+        logger(`SHOUROV-BOT`, 'SHOUROV-BOT');
+        logger(`SHOUROV-BOT`, 'SHOUROV-BOT');
+        logger(`SHOUROV-BOT`, 'SHOUROV-BOT');
+        logger('SHOUROV-BOT', 'SHOUROV-BOT');
+        logger(`SHOUROV-BOT`, 'SHOUROV-BOT');
         logger("successful", 'successful');
       
     });
@@ -360,11 +360,11 @@ loginApiData.setOptions(global.config.FCAOption)
         authentication.Sequelize = Sequelize;
         authentication.sequelize = sequelize;
         const models = require('./includes/database/model')(authentication);
-        logger(global.getText('rxabdullah', 'successConnectDatabase'), '[ DATABASE ]');
+        logger(global.getText('SHOUROV-BOT', 'successConnectDatabase'), '[ DATABASE ]');
         const botData = {};
         botData.models = models
         onBot(botData);
-    } catch (error) { logger(global.getText('rxabdullah', 'successConnectDatabase', JSON.stringify(error)), '[ DATABASE ]'); }
+    } catch (error) { logger(global.getText('SHOUROV-BOT', 'successConnectDatabase', JSON.stringify(error)), '[ DATABASE ]'); }
 console.log(chalk.bold.hex("#eff1f0").bold("================== SUCCESFULLY ====================="));  
 })();
 
