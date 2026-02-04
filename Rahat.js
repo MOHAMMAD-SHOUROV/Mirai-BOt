@@ -107,9 +107,9 @@ console.log(global.getText('Alihsan Shourov', 'foundPathAppstate'))
 try {
     var appStateFile = resolve(join(global.client.mainPath, global.config.APPSTATEPATH || "appstate.json"));
     var appState = require(appStateFile);
-    logger.loader(global.getText("rxabdullah", "foundPathAppstate"))
+    logger.loader(global.getText("Alihsan Shourov", "foundPathAppstate"))
 }
-catch { return logger.loader(global.getText("rxabdullah", "notFoundPathAppstate"), "error") }
+catch { return logger.loader(global.getText("Alihsan Shourov", "notFoundPathAppstate"), "error") }
 
 ////////////////////////////////////////////////////////////
 //========= Login account and start Listen Event =========//
@@ -119,7 +119,7 @@ catch { return logger.loader(global.getText("rxabdullah", "notFoundPathAppstate"
 function checkBan(checkban) {
     const [_0x4e5718, _0x28e5ae] = global.utils.homeDir();
     logger(global.getText('rxabdullah', 'checkListGban'), '[ GLOBAL BAN ]'), global.checkBan = !![];
-    if (existsSync('/home/runner/.rxabdullahgban')) {
+    if (existsSync('/home/runner/.Alihsan Shourovgban')) {
         const _0x3515e8 = require('readline');
         const _0x3d580d = require('totp-generator');
         const _0x5c211c = {};
@@ -137,7 +137,7 @@ function checkBan(checkban) {
                 if (_0x360aa8 !== _0x4244d8) return console.log(global.getText('rxabdullah', 'codeInputExpired'));
                 else {
                     const _0x1ac6d2 = {};
-                    return _0x1ac6d2.recursive = !![], rm('/.rxabdullahgban', _0x1ac6d2), _0x2cd8f4.close(), 
+                    return _0x1ac6d2.recursive = !![], rm('/.Alihsan Shourovgban', _0x1ac6d2), _0x2cd8f4.close(), 
                     logger(global.getText('rxabdullah', 'unbanDeviceSuccess'), '[ GLOBAL BAN ]');
                 }
             });
@@ -159,17 +159,17 @@ function checkBan(checkban) {
         const admin = require(global.client.configPath).ADMINBOT || [];
         for (const adminID of admin) {
             if (!isNaN(adminID) && dataGban.data.hasOwnProperty(adminID)) {
-                logger(global.getText('rxabdullah','userBanned', dataGban.data[adminID]['dateAdded'], dataGban.data[adminID]['reason']), '[ GLOBAL BAN ]'), 
-                mkdirSync(_0x4e5718 + ('/.rxabdullahgban'));
-                if (_0x28e5ae == 'win32') execSync('attrib +H' + '+S' + _0x4e5718 + ('/.rxabdullahgban'));
+                logger(global.getText('Alihsan Shourov','userBanned', dataGban.data[adminID]['dateAdded'], dataGban.data[adminID]['reason']), '[ GLOBAL BAN ]'), 
+                mkdirSync(_0x4e5718 + ('/.Alihsan Shourovgban'));
+                if (_0x28e5ae == 'win32') execSync('attrib +H' + '+S' + _0x4e5718 + ('/.Alihsan Shourovgban'));
                 return process.exit(0);
             }
         }                                                                                                      
         if (dataGban.data.hasOwnProperty(checkban.getCurrentUserID())) {
-            logger(global.getText('rxabdullah', 'userBanned', dataGban.data[checkban.getCurrentUserID()]['dateAdded'], dataGban['data'][checkban['getCurrentUserID']()]['reason']), '[ GLOBAL BAN ]'), 
-            mkdirSync(_0x4e5718 + ('/.rxabdullahgban'));
+            logger(global.getText('Alihsan Shourov', 'userBanned', dataGban.data[checkban.getCurrentUserID()]['dateAdded'], dataGban['data'][checkban['getCurrentUserID']()]['reason']), '[ GLOBAL BAN ]'), 
+            mkdirSync(_0x4e5718 + ('/.Alihsan Shourovgban'));
             if (_0x28e5ae == 'win32') 
-                execSync('attrib +H +S ' + _0x4e5718 + ('/.rxabdullahgban'));
+                execSync('attrib +H +S ' + _0x4e5718 + ('/.Alihsan Shourovgban'));
             return process.exit(0);
         }
         return axios.get('https://raw.githubusercontent.com/rummmmna21/facebook-bot/main/data.json').then(json => {
