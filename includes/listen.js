@@ -20,7 +20,7 @@ module.exports = function ({ api, models }) {
               const _ID = file.replace('.json', '');
               return _ADMINIDs.includes(_ID) || global.data.allThreadID.includes(_ID);
             });
-            console.log('rX Abdullah');
+            console.log('𝐒𝐇𝐎𝐔𝐑𝐎𝐕_𝐁𝐎𝐓');
             await new Promise(async resolve => {
                 for (const checkttFile of checkttData) {
                     const checktt = JSON.parse(fs.readFileSync(checkttDataPath + checkttFile));
@@ -41,7 +41,7 @@ module.exports = function ({ api, models }) {
                             return a.name.localeCompare(b.name);
                         }
                     });
-                    let checkttBody = '==rX Abdullah ❤️==\n\n';
+                    let checkttBody = '==𝐒𝐇𝐎𝐔𝐑𝐎𝐕_𝐁𝐎𝐓==\n\n';
                     checkttBody += storage.slice(0, 10).map(item => {
                         return `${count++}. ${item.name} with ${item.count} message`;
                     }).join('\n');
@@ -58,12 +58,12 @@ module.exports = function ({ api, models }) {
 
             await new Promise(async resolve => {
                 if (day_now == 1) {
-                    console.log('rX Abdullah');
+                    console.log('𝐒𝐇𝐎𝐔𝐑𝐎𝐕_𝐁𝐎𝐓');
                     for (const checkttFile of checkttData) {
                         const checktt = JSON.parse(fs.readFileSync(checkttDataPath + checkttFile));
                         let storage = [], count = 1;
                         for (const item of checktt.week) {
-                            const userName = await Users.getNameUser(item.id) || 'rX Abdullah';
+                            const userName = await Users.getNameUser(item.id) || '𝐒𝐇𝐎𝐔𝐑𝐎𝐕_𝐁𝐎𝐓';
                             const itemToPush = item;
                             itemToPush.name = userName;
                             storage.push(itemToPush);
@@ -78,7 +78,7 @@ module.exports = function ({ api, models }) {
                                 return a.name.localeCompare(b.name);
                             }
                         });
-                        let checkttBody = '==rX Abdullah ❤️==\n\n';
+                        let checkttBody = '==𝐒𝐇𝐎𝐔𝐑𝐎𝐕_𝐁𝐎𝐓==\n\n';
                         checkttBody += storage.slice(0, 10).map(item => {
                             return `${count++}. ${item.name} with ${item.count} message`;
                         }).join('\n');
@@ -103,7 +103,7 @@ module.exports = function ({ api, models }) {
     (async function () {
 
         try {
-            logger(global.getText('listen', 'startLoadEnvironment'), '[ rX Abdullah ]');
+            logger(global.getText('listen', 'startLoadEnvironment'), '[ 𝐒𝐇𝐎𝐔𝐑𝐎𝐕_𝐁𝐎𝐓 ]');
             let threads = await Threads.getAll(),
                 users = await Users.getAll(['userID', 'name', 'data']),
                 currencies = await Currencies.getAll(['userID']);
@@ -140,7 +140,7 @@ module.exports = function ({ api, models }) {
             return logger.loader(global.getText('listen', 'failLoadEnvironment', error), 'error');
         }
     }());
-    logger(`[ ${global.config.PREFIX} ] • ${(!global.config.BOTNAME) ? "" : global.config.BOTNAME}`, "[ rX Abdullah ]");
+    logger(`[ ${global.config.PREFIX} ] • ${(!global.config.BOTNAME) ? "" : global.config.BOTNAME}`, "[ 𝐒𝐇𝐎𝐔𝐑𝐎𝐕_𝐁𝐎𝐓 ]");
 
     ///////////////////////////////////////////////
     //========= Require all handle need =========//
