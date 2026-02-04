@@ -7,120 +7,149 @@ const { login } = require('shourov-fca');
 const log = require('./utils/log');
 
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
+
+/* ================= WEB SERVER ================= */
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, './shourov.html'));
+  res.send('SHOUROV BOT RUNNING');
 });
 
 app.listen(PORT, '0.0.0.0', () => {
-    log.success(`Web server running on port ${PORT}`);
+  log.success(`Web server running on port ${PORT}`);
 });
+
+/* ================= PATHS ================= */
 
 const FBSTATE_PATH = path.join(__dirname, 'Shourovstate.json');
 const FCA_CONFIG_PATH = path.join(__dirname, 'ShourovFca.json');
 
+/* ================= APPSTATE PARSER ================= */
+
 function detectAndParseAppState(raw) {
-    raw = raw.trim();
-    if (!raw) return null;
-    
-    // Check if it's a JSON array (standard appState)
-    if (raw.startsWith('[') && raw.endsWith(']')) {
-        try {
-            return JSON.parse(raw);
-        } catch (e) {
-            log.err('Failed to parse JSON array appState');
-        }
-    }
-    
-    // Check if it's Netscape format (starts with # Netscape HTTP Cookie File)
-    if (raw.includes('Netscape HTTP Cookie File') || raw.split('\n').some(line => line.includes('\t'))) {
-        try {
-            const lines = raw.split('\n');
-            const jsonCookies = [];
-            lines.forEach(line => {
-                if (!line.trim() || line.startsWith('#')) return;
-                const parts = line.split('\t');
-                if (parts.length >= 7) {
-                    jsonCookies.push({
-                        key: parts[5],
-                        value: parts[6].trim(),
-                        domain: parts[0],
-                        path: parts[2],
-                        hostOnly: parts[3] === 'FALSE',
-                        creation: new Date().toISOString(),
-                        lastAccessed: new Date().toISOString()
-                    });
-                }
-            });
-            return jsonCookies.length > 0 ? jsonCookies : null;
-        } catch (e) {
-            log.err('Failed to parse Netscape appState');
-        }
-    }
-    
-    // Try raw cookie string (key1=val1; key2=val2)
-    if (raw.includes('=') && raw.includes(';')) {
-        try {
-            return raw.split(';').map(pair => {
-                const [key, ...val] = pair.trim().split('=');
-                return {
-                    key: key,
-                    value: val.join('='),
-                    domain: 'facebook.com',
-                    path: '/',
-                    hostOnly: false,
-                    creation: new Date().toISOString(),
-                    lastAccessed: new Date().toISOString()
-                };
-            });
-        } catch (e) {
-            log.err('Failed to parse cookie string appState');
-        }
-    }
-    
-    return null;
-}
+  raw = raw.trim();
+  if (!raw) return null;
 
-let appState = null;
-if (fs.existsSync(FBSTATE_PATH)) {
-    const rawState = fs.readFileSync(FBSTATE_PATH, 'utf8');
-    appState = detectAndParseAppState(rawState);
-    if (!appState) {
-        log.err('Shourovstate.json found but format is unrecognized or invalid.');
-    }
-} else {
-    log.warn('Shourovstate.json not found. Please provide it for cookie-based login.');
-}
-
-let fcaConfig = { optionsFca: {} };
-if (fs.existsSync(FCA_CONFIG_PATH)) {
+  // JSON array
+  if (raw.startsWith('[')) {
     try {
-        fcaConfig = JSON.parse(fs.readFileSync(FCA_CONFIG_PATH, 'utf8'));
-    } catch (e) {
-        log.err('Failed to parse ShourovFca.json');
+      return JSON.parse(raw);
+    } catch {
+      return null;
     }
+  }
+
+  // Netscape
+  if (raw.includes('\t')) {
+    const cookies = [];
+    raw.split('\n').forEach(line => {
+      if (!line || line.startsWith('#')) return;
+      const p = line.split('\t');
+      if (p.length >= 7) {
+        cookies.push({
+          key: p[5],
+          value: p[6],
+          domain: p[0],
+          path: p[2],
+          hostOnly: false,
+          creation: new Date().toISOString(),
+          lastAccessed: new Date().toISOString()
+        });
+      }
+    });
+    return cookies.length ? cookies : null;
+  }
+
+  // Cookie string
+  if (raw.includes('=') && raw.includes(';')) {
+    return raw.split(';').map(c => {
+      const [k, ...v] = c.trim().split('=');
+      return {
+        key: k,
+        value: v.join('='),
+        domain: 'facebook.com',
+        path: '/',
+        hostOnly: false,
+        creation: new Date().toISOString(),
+        lastAccessed: new Date().toISOString()
+      };
+    });
+  }
+
+  return null;
 }
 
-const loginData = { appState };
+/* ================= LOAD COOKIE ================= */
 
-login(loginData, (err, api) => {
+if (!fs.existsSync(FBSTATE_PATH)) {
+  log.err('Shourovstate.json not found. Cookie login required.');
+  process.exit(1);
+}
+
+const rawState = fs.readFileSync(FBSTATE_PATH, 'utf8');
+const appState = detectAndParseAppState(rawState);
+
+if (!Array.isArray(appState) || !appState.find(c => c.key === 'c_user')) {
+  log.err('Invalid cookie in Shourovstate.json');
+  process.exit(1);
+}
+
+log.success('Cookie loaded from Shourovstate.json');
+
+/* ================= FCA CONFIG ================= */
+
+let fcaOptions = {};
+if (fs.existsSync(FCA_CONFIG_PATH)) {
+  try {
+    fcaOptions = JSON.parse(fs.readFileSync(FCA_CONFIG_PATH, 'utf8')).optionsFca || {};
+  } catch {
+    log.warn('Invalid ShourovFca.json, using default options');
+  }
+}
+
+/* ================= LOGIN ================= */
+
+login(
+  {
+    appState,
+    forceLogin: true,
+    listenEvents: true,
+    selfListen: false,
+    logLevel: 'silent'
+  },
+  (err, api) => {
+
     if (err) {
-        if (err.code === 'CHECKPOINT_REQUIRED') {
-            log.err('LOGIN FAILED: Account requires checkpoint verification. Please login in a browser first.');
-        } else {
-            log.err('BOT LOGIN FAILED');
-            console.error(err);
-        }
+      // ⛔ checkpoint ignore
+      if (
+        err.code === 'CHECKPOINT_REQUIRED' ||
+        String(err).toLowerCase().includes('checkpoint')
+      ) {
+        log.warn('Checkpoint detected, continuing with cookie session...');
+      } else {
+        log.err('LOGIN ERROR');
+        console.error(err);
         return;
+      }
     }
 
     log.success('BOT LOGIN SUCCESS');
 
-    if (api && api.setOptions && fcaConfig.optionsFca) {
-        api.setOptions(fcaConfig.optionsFca);
+    if (api?.setOptions) {
+      api.setOptions(fcaOptions);
     }
 
-    // Start existing bot logic
-    require('./Shourov.js');
-});
+    // Save refreshed cookie (optional but safe)
+    try {
+      fs.writeFileSync(
+        FBSTATE_PATH,
+        JSON.stringify(api.getAppState(), null, 2)
+      );
+      log.success('Cookie refreshed & saved');
+    } catch {}
+
+    /* ================= START BOT ================= */
+
+    require('./Shourov.js')(api);
+  }
+);
