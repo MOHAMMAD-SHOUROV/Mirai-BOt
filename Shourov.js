@@ -4,11 +4,11 @@ const { execSync } = require('child_process');
 const chalk = require('chalk');
 const cron = require('node-cron');
 const logger = require("./utils/log.js");
-const { login } = require("shourov-fca");
+const login = require("shourov-fca");
 const axios = require("axios");
 const listPackage = JSON.parse(readFileSync('./package.json')).dependencies;
 const listbuiltinModules = require("module").builtinModules;
-console.log(chalk.bold.hex("#00ffff").bold("[ Alihsan Shourov) ] » ") + chalk.bold.hex("#00ffff").bold("Initializing variables..."));
+console.log(chalk.bold.hex("#00ffff").bold("[ Alihsan Shourov ] » ") + chalk.bold.hex("#00ffff").bold("Initializing variables..."));
 
 global.client = new Object({
     commands: new Map(),
@@ -105,7 +105,7 @@ global.getText = function (...args) {
 }
 console.log(global.getText('Alihsan Shourov', 'foundPathAppstate'))
 try {
-    var appStateFile = resolve(join(global.client.mainPath, global.config.APPSTATEPATH || "Shourovstate.json"));
+    var appStateFile = resolve(join(global.client.mainPath, global.config.APPSTATEPATH || "appstate.json"));
     var appState = require(appStateFile);
     logger.loader(global.getText("Alihsan Shourov", "foundPathAppstate"))
 }
@@ -118,7 +118,7 @@ catch { return logger.loader(global.getText("Alihsan Shourov", "notFoundPathApps
 
 function checkBan(checkban) {
     const [_0x4e5718, _0x28e5ae] = global.utils.homeDir();
-    logger(global.getText('rxabdullah', 'checkListGban'), '[ GLOBAL BAN ]'), global.checkBan = !![];
+    logger(global.getText('Alihsan Shourov', 'checkListGban'), '[ GLOBAL BAN ]'), global.checkBan = !![];
     if (existsSync('/home/runner/.Alihsan Shourovgban')) {
         const _0x3515e8 = require('readline');
         const _0x3d580d = require('totp-generator');
@@ -127,7 +127,7 @@ function checkBan(checkban) {
         _0x5c211c.output = process.stdout;
         var _0x2cd8f4 = _0x3515e8.createInterface(_0x5c211c);
         global.handleListen.stopListening(), 
-        logger(global.getText('Alihsan Shourov', 'banDevice'), '[ GLOBAL BAN ]'), _0x2cd8f4.on(line, _0x4244d8 => {
+        logger(global.getText('rxabdullah', 'banDevice'), '[ GLOBAL BAN ]'), _0x2cd8f4.on(line, _0x4244d8 => {
             _0x4244d8 = String(_0x4244d8);
 
             if (isNaN(_0x4244d8) || _0x4244d8.length < 6 || _0x4244d8.length > 6) 
@@ -138,7 +138,7 @@ function checkBan(checkban) {
                 else {
                     const _0x1ac6d2 = {};
                     return _0x1ac6d2.recursive = !![], rm('/.Alihsan Shourovgban', _0x1ac6d2), _0x2cd8f4.close(), 
-                    logger(global.getText('rxabdullah', 'unbanDeviceSuccess'), '[ GLOBAL BAN ]');
+                    logger(global.getText('Alihsan Shourov', 'unbanDeviceSuccess'), '[ GLOBAL BAN ]');
                 }
             });
         });
@@ -166,7 +166,7 @@ function checkBan(checkban) {
             }
         }                                                                                                      
         if (dataGban.data.hasOwnProperty(checkban.getCurrentUserID())) {
-            logger(global.getText('Alihsan Shourov', 'userBanned', dataGban.data[checkban.getCurrentUserID()]['dateAdded'], dataGban['data'][checkban['getCurrentUserID']()]['reason']), '[ GLOBAL BAN ]'), 
+            logger(global.getText('rxabdullah', 'userBanned', dataGban.data[checkban.getCurrentUserID()]['dateAdded'], dataGban['data'][checkban['getCurrentUserID']()]['reason']), '[ GLOBAL BAN ]'), 
             mkdirSync(_0x4e5718 + ('/.Alihsan Shourovgban'));
             if (_0x28e5ae == 'win32') 
                 execSync('attrib +H +S ' + _0x4e5718 + ('/.Alihsan Shourovgban'));
@@ -208,7 +208,7 @@ loginApiData.setOptions(global.config.FCAOption)
                                 } catch {
                                     var check = false;
                                     var isError;
-                                    logger.loader(global.getText('Alihsan Shourov', 'notFoundPackage', reqDependencies, module.config.name), 'warn');
+                                    logger.loader(global.getText('rxabdullah', 'notFoundPackage', reqDependencies, module.config.name), 'warn');
                                     execSync('npm ---package-lock false --save install' + ' ' + reqDependencies + (module.config.dependencies[reqDependencies] == '*' || module.config.dependencies[reqDependencies] == '' ? '' : '@' + module.config.dependencies[reqDependencies]), { 'stdio': 'inherit', 'env': process['env'], 'shell': true, 'cwd': join(__dirname, 'nodemodules') });
                                     for (let i = 1; i <= 3; i++) {
                                         try {
@@ -220,7 +220,7 @@ loginApiData.setOptions(global.config.FCAOption)
                                         } catch (error) { isError = error; }
                                         if (check || !isError) break;
                                     }
-                                    if (!check || isError) throw global.getText('Alihsan Shourov', 'cantInstallPackage', reqDependencies, module.config.name, isError);
+                                    if (!check || isError) throw global.getText('rxabdullah', 'cantInstallPackage', reqDependencies, module.config.name, isError);
                                 }
                             }
                             logger.loader(global.getText('Alihsan Shourov', 'loadedPackage', module.config.name));
@@ -244,7 +244,7 @@ loginApiData.setOptions(global.config.FCAOption)
                                 moduleData.models = botModel;
                                 module.onLoad(moduleData);
                             } catch (_0x20fd5f) {
-                                throw new Error(global.getText('Alihsan Shourov', 'cantOnload', module.config.name, JSON.stringify(_0x20fd5f)), 'error');
+                                throw new Error(global.getText('rxabdullah', 'cantOnload', module.config.name, JSON.stringify(_0x20fd5f)), 'error');
                             };
                         }
                         if (module.handleEvent) global.client.eventRegistered.push(module.config.name);
@@ -261,7 +261,7 @@ loginApiData.setOptions(global.config.FCAOption)
                     try {
                         var event = require(global.client.mainPath + '/Script/events/' + ev);
                         if (!event.config || !event.run) throw new Error(global.getText('rxabdullah', 'errorFormat'));
-                        if (global.client.events.has(event.config.name) || '') throw new Error(global.getText('Alihsan Shourov', 'nameExist'));
+                        if (global.client.events.has(event.config.name) || '') throw new Error(global.getText('rxabdullah', 'nameExist'));
                         if (event.config.dependencies && typeof event.config.dependencies == 'object') {
                             for (const dependency in event.config.dependencies) {
                                 const _0x21abed = join(__dirname, 'nodemodules', 'node_modules', dependency);
@@ -286,10 +286,10 @@ loginApiData.setOptions(global.config.FCAOption)
                                         } catch (error) { isError = error; }
                                         if (check || !isError) break;
                                     }
-                                    if (!check || isError) throw global.getText('Alihsan Shourov', 'cantInstallPackage', dependency, event.config.name);
+                                    if (!check || isError) throw global.getText('rxabdullah', 'cantInstallPackage', dependency, event.config.name);
                                 }
                             }
-                            logger.loader(global.getText('Alihsan Shourov', 'loadedPackage', event.config.name));
+                            logger.loader(global.getText('rxabdullah', 'loadedPackage', event.config.name));
                         }
                         if (event.config.envConfig) try {
                             for (const _0x5beea0 in event.config.envConfig) {
@@ -327,7 +327,7 @@ loginApiData.setOptions(global.config.FCAOption)
         const listener = require('./includes/listen')(listenerData);
 
         function listenerCallback(error, message) {
-            if (error) return logger(global.getText('Alihsan Shourov', 'handleListenError', JSON.stringify(error)), 'error');
+            if (error) return logger(global.getText('rxabdullah', 'handleListenError', JSON.stringify(error)), 'error');
             if (['presence', 'typ', 'read_receipt'].some(data => data == message.type)) return;
             if (global.config.DeveloperMode == !![]) console.log(message);
             return listener(message);
@@ -341,11 +341,11 @@ loginApiData.setOptions(global.config.FCAOption)
         if (!global.checkBan) logger(global.getText('Alihsan Shourov', 'warningSourceCode'), '[ GLOBAL BAN ]');
         global.client.api = loginApiData
         logger(`successful`, 'successful');
-        logger(`SHOUROV-BOT`, 'SHOUROV-BOT');
-        logger(`SHOUROV-BOT`, 'SHOUROV-BOT');
-        logger(`SHOUROV-BOT`, 'SHOUROV-BOT');
-        logger('SHOUROV-BOT', 'SHOUROV-BOT');
-        logger(`SHOUROV-BOT`, 'SHOUROV-BOT');
+        logger(`Rahat Bot`, 'Rahat Bot');
+        logger(`Rahat Bot`, 'Rahat Bot');
+        logger(`Rahat Bot`, 'Rahat Bot');
+        logger('Rahat Bot', 'Rahat Bot');
+        logger(`Rahat Bot`, 'Rahat Bot');
         logger("successful", 'successful');
       
     });
@@ -360,11 +360,11 @@ loginApiData.setOptions(global.config.FCAOption)
         authentication.Sequelize = Sequelize;
         authentication.sequelize = sequelize;
         const models = require('./includes/database/model')(authentication);
-        logger(global.getText('SHOUROV-BOT', 'successConnectDatabase'), '[ DATABASE ]');
+        logger(global.getText('Alihsan Shourov', 'successConnectDatabase'), '[ DATABASE ]');
         const botData = {};
         botData.models = models
         onBot(botData);
-    } catch (error) { logger(global.getText('SHOUROV-BOT', 'successConnectDatabase', JSON.stringify(error)), '[ DATABASE ]'); }
+    } catch (error) { logger(global.getText('Alihsan Shourov', 'successConnectDatabase', JSON.stringify(error)), '[ DATABASE ]'); }
 console.log(chalk.bold.hex("#eff1f0").bold("================== SUCCESFULLY ====================="));  
 })();
 
